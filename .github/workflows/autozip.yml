@@ -25,9 +25,13 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a set of commands using the runners shell
-      - name: Delete Old Zip And Create New
+      - name: Delete Old Zip
+        run: |
+          rm snw-pack.zip
+          echo Old Pack Deleted
+
+      - name: Create New Pack Zip
         run: |
           ls
-          rm snw-pack.zip
+          zip -r snw-pack.zip * -x '*.git*'
           echo Done!
