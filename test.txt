@@ -1,1 +1,1 @@
-This is a test file to check if the autozip action and server automatically update correctly
+This is a slightly changed test file to confirm.
