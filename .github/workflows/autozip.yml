@@ -35,3 +35,10 @@ jobs:
           ls
           zip -r snw-pack.zip * -x '*.git*'
           echo Done!
+          
+      - name: Commit Autozip
+        run: |
+          git config --global user.name 'Your Name'
+          git config --global user.email 'your-username@users.noreply.github.com'
+          git commit -am "Pack ZIP Automatically Generated"
+          git push
