@@ -29,4 +29,4 @@ jobs:
       - name: Delete Old Zip And Create New
         run: |
           rm snw-pack.zip
-          zip -r snw-pack.zip *
+          zip -r snw-pack.zip * -x '*.github*'
