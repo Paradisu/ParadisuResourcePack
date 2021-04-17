@@ -38,7 +38,7 @@ jobs:
           
       - name: Commit Autozip
         run: |
-          git config --global user.name 'Your Name'
-          git config --global user.email 'your-username@users.noreply.github.com'
+          git config --global user.name '${{ github.actor }}'
+          git config --global user.email 'supernintendoworldmc@gmail.com'
           git commit -am "Pack ZIP Automatically Generated"
           git push
