@@ -28,5 +28,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Delete Old Zip And Create New
         run: |
-          rm snw-pack.zip
-          zip -r snw-pack.zip * -x '*.github*'
+          zip -r snw-pack.zip * -x '*.github*' -x '*snw-pack.zip*'
