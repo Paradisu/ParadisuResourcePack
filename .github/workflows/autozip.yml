@@ -25,20 +25,25 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Delete Old Zip
+      - name: Delete Old Zip and Hash
         run: |
           rm snw-pack.zip
-          echo Old Pack Deleted
+          rm packhash.sha1
+          echo Old Pack And Hash Deleted
 
       - name: Create New Pack Zip
         run: |
           ls
-          zip -r snw-pack.zip * -x '*.git*'
+          zip -r snw-pack.zip * -x '*.git*' -x '*packhash.sha1*'
           echo Done!
+      
+      - name: Hash New Zip File
+        run: |
+          sha1sum snw-pack.zip > packhash.sha1
           
       - name: Commit Autozip
         run: |
           git config --global user.name '${{ github.actor }}'
           git config --global user.email 'supernintendoworldmc@gmail.com'
-          git commit -am "Pack ZIP Automatically Generated"
+          git commit -am "Pack ZIP Automatically Generated, New Hash Output"
           git push
