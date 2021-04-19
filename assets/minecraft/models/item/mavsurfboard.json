@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "block/stripped_oak_log",
 		"1": "block/stripped_acacia_log",
-		"2": "Desktop/santa cruz wave",
+		"2": "custom/sc_wave",
 		"particle": "block/stripped_oak_log"
 	},
 	"elements": [
