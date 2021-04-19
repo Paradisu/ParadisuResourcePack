@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/sand",
-		"1": "Desktop/download_55",
+		"1": "custom/jpwrangler",
 		"2": "block/stripped_oak_log",
 		"3": "block/brown_concrete",
 		"particle": "block/sand"
