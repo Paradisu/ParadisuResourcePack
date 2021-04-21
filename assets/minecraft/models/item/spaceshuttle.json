@@ -7,8 +7,8 @@
 		"3": "block/light_gray_concrete",
 		"4": "block/white_concrete",
 		"5": "block/black_concrete",
-		"6": "custom/shuttle-boosters",
-		"particle": "custom/shuttle-boosters"
+		"6": "custom/shuttleboosters",
+		"particle": "custom/shuttleboosters"
 	},
 	"elements": [
 		{
