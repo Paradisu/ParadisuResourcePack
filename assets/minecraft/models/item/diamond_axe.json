@@ -101,7 +101,7 @@
 		{ "predicate": { "damaged": 0, "damage": 0.060217809096733 }, "model": "item/jawsamitysign" },
 		{ "predicate": { "damaged": 0, "damage": 0.060858424087124 }, "model": "item/mavsurfboard" },
 		{ "predicate": { "damaged": 0, "damage": 0.061499039077514 }, "model": "item/hats/jpwrangler" },
-		{ "predicate": { "damaged": 0, "damage": 0.062139654067905 }, "model": "item/all/rides/trains/green3back" },
+		{ "predicate": { "damaged": 0, "damage": 0.062139654067905 }, "model": "item/space-shuttle" },
 		{ "predicate": { "damaged": 0, "damage": 0.062780269058296 }, "model": "item/all/rides/tomorrowland/astro" },
 		{ "predicate": { "damaged": 0, "damage": 0.063420884048687 }, "model": "item/all/rides/tomorrowland/astro_arm" },
 		{ "predicate": { "damaged": 0, "damage": 0.064061499039078 }, "model": "item/all/hats/seasonal/mickey_halloween" },
