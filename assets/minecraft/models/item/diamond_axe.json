@@ -106,7 +106,7 @@
 		{ "predicate": { "damaged": 0, "damage": 0.063420884048687 }, "model": "item/snwsign" },
 		{ "predicate": { "damaged": 0, "damage": 0.064061499039078 }, "model": "item/jurassicsign" },
 		{ "predicate": { "damaged": 0, "damage": 0.064702114029468 }, "model": "item/pathwaybush" },
-		{ "predicate": { "damaged": 0, "damage": 0.065342729019859 }, "model": "item/all/hats/seasonal/mickey_halloween" },
+		{ "predicate": { "damaged": 0, "damage": 0.065342729019859 }, "model": "item/terminatorhead" },
 		{ "predicate": { "damaged": 0, "damage": 0.06598334401025 }, "model": "item/all/decore/halloween/mickey_head/mickey_head1" },
 		{ "predicate": { "damaged": 0, "damage": 0.066623959000641 }, "model": "item/all/misc/tink_lamp/lamp_1.0" },
 		{ "predicate": { "damaged": 0, "damage": 0.067264573991031 }, "model": "item/all/misc/tink_lamp/lamp_2.0" },
