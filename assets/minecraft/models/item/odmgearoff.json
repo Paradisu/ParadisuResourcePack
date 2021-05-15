@@ -3,7 +3,7 @@
 	"textures": {
 		"3": "block/blast_furnace_side",
 		"4": "block/brewing_stand_base",
-		"6": "block/blackstone_top",
+		"6": "block/coal_block",
 		"particle": "block/acacia_door_bottom"
 	},
 	"elements": [
