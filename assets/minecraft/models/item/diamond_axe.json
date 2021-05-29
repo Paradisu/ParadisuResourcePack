@@ -115,7 +115,7 @@
 		{ "predicate": { "damaged": 0, "damage": 0.069186418962204 }, "model": "item/terminator_lefthand1" },
 		{ "predicate": { "damaged": 0, "damage": 0.069827033952594 }, "model": "item/terminator_righthand1" },
 		{ "predicate": { "damaged": 0, "damage": 0.070467648942985 }, "model": "item/terminatorleftleg" },
-		{ "predicate": { "damaged": 0, "damage": 0.071108263933376 }, "model": "item/all/rides/alice/alice_blue" },
+		{ "predicate": { "damaged": 0, "damage": 0.071108263933376 }, "model": "item/hyrdocoinstack" },
 		{ "predicate": { "damaged": 0, "damage": 0.071748878923767 }, "model": "item/all/rides/alice/alice_green" },
 		{ "predicate": { "damaged": 0, "damage": 0.072389493914158 }, "model": "item/all/rides/alice/alice_orange" },
 		{ "predicate": { "damaged": 0, "damage": 0.073030108904548 }, "model": "item/all/rides/toad/toad_red" },
