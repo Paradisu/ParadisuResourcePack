@@ -119,7 +119,7 @@
 		{ "predicate": { "damaged": 0, "damage": 0.071748878923767 }, "model": "item/batteryparkclockbottom" },
 		{ "predicate": { "damaged": 0, "damage": 0.072389493914158 }, "model": "item/batteryparkclocktop" },
 		{ "predicate": { "damaged": 0, "damage": 0.073030108904548 }, "model": "item/batteryparkclockboth" },
-		{ "predicate": { "damaged": 0, "damage": 0.073670723894939 }, "model": "item/all/rides/toad/toad_black" },
+		{ "predicate": { "damaged": 0, "damage": 0.073670723894939 }, "model": "item/bp_park_lamp" },
 		{ "predicate": { "damaged": 0, "damage": 0.07431133888533 }, "model": "item/all/rides/toad/toad_light_blue" },
 		{ "predicate": { "damaged": 0, "damage": 0.074951953875721 }, "model": "item/all/rides/toad/toad_lime" },
 		{ "predicate": { "damaged": 0, "damage": 0.075592568866111 }, "model": "item/all/rides/toad/toad_white" },
