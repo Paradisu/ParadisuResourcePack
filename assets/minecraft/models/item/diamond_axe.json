@@ -121,7 +121,7 @@
 		{ "predicate": { "damaged": 0, "damage": 0.073030108904548 }, "model": "item/batteryparkclockboth" },
 		{ "predicate": { "damaged": 0, "damage": 0.073670723894939 }, "model": "item/bp_park_lamp" },
 		{ "predicate": { "damaged": 0, "damage": 0.07431133888533 }, "model": "item/travisscottmeal" },
-		{ "predicate": { "damaged": 0, "damage": 0.074951953875721 }, "model": "item/all/rides/toad/toad_lime" },
+		{ "predicate": { "damaged": 0, "damage": 0.074951953875721 }, "model": "item/sportsball" },
 		{ "predicate": { "damaged": 0, "damage": 0.075592568866111 }, "model": "item/all/rides/toad/toad_white" },
 		{ "predicate": { "damaged": 0, "damage": 0.076233183856502 }, "model": "item/all/rides/teacups/teacup_blue" },
 		{ "predicate": { "damaged": 0, "damage": 0.076873798846893 }, "model": "item/all/rides/teacups/teacup_cyan" },
