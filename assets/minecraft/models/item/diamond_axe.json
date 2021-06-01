@@ -126,7 +126,7 @@
 		{ "predicate": { "damaged": 0, "damage": 0.076233183856502 }, "model": "item/thecaber" },
 		{ "predicate": { "damaged": 0, "damage": 0.076873798846893 }, "model": "item/kapkan2" },
 		{ "predicate": { "damaged": 0, "damage": 0.077514413837284 }, "model": "item/kapkan1" },
-		{ "predicate": { "damaged": 0, "damage": 0.078155028827675 }, "model": "item/all/rides/teacups/teacup_orange" },
+		{ "predicate": { "damaged": 0, "damage": 0.078155028827675 }, "model": "item/cplampspeaker" },
 		{ "predicate": { "damaged": 0, "damage": 0.078795643818065 }, "model": "item/all/rides/teacups/teacup_pink" },
 		{ "predicate": { "damaged": 0, "damage": 0.079436258808456 }, "model": "item/all/rides/teacups/teacup_red" },
 		{ "predicate": { "damaged": 0, "damage": 0.080076873798847 }, "model": "item/all/rides/teacups/teacup_yellow" },
