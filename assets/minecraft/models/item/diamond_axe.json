@@ -131,7 +131,7 @@
 		{ "predicate": { "damaged": 0, "damage": 0.079436258808456 }, "model": "item/rides/jurrasicfront" },
 		{ "predicate": { "damaged": 0, "damage": 0.080076873798847 }, "model": "item/rides/jurrasicback" },
 		{ "predicate": { "damaged": 0, "damage": 0.080717488789238 }, "model": "item/rides/jurrasicparkride" },
-		{ "predicate": { "damaged": 0, "damage": 0.081358103779628 }, "model": "item/putnewmodelshere" },
+		{ "predicate": { "damaged": 0, "damage": 0.081358103779628 }, "model": "item/betterthanimodshat" },
 		{ "predicate": { "damaged": 0, "damage": 0.081998718770019 }, "model": "item/putnewmodelshere" },
 		{ "predicate": { "damaged": 0, "damage": 0.08263933376041 }, "model": "item/putnewmodelshere" },
 		{ "predicate": { "damaged": 0, "damage": 0.083279948750801 }, "model": "item/putnewmodelshere" },
