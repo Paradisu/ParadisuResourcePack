@@ -513,15 +513,15 @@
 		},
 		"gui": {
 			"rotation": [-85, 0, 102],
-			"translation": [0.75, -1.75, 0]
+			"translation": [-0.25, -1.75, 0]
 		},
 		"head": {
 			"rotation": [-90, 0, -90],
 			"translation": [3, 0, -30.25]
 		},
 		"fixed": {
-			"rotation": [-180, 0, 0],
-			"translation": [-37.25, 0, -4.5]
+			"rotation": [0, -180, 0],
+			"translation": [37, 2.75, -3.5]
 		}
 	},
 	"groups": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
