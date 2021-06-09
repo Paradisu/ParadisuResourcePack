@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/coal_block",
-		"1": "block/magenta_terracotta",
+		"1": "custom/rainbow",
 		"particle": "block/coal_block"
 	},
 	"elements": [

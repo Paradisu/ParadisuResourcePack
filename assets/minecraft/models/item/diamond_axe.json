@@ -142,7 +142,7 @@
 		{ "predicate": { "damaged": 0, "damage": 0.086483023702755 }, "model": "item/wings/magentadevilwings" },
 		{ "predicate": { "damaged": 0, "damage": 0.087123638693145 }, "model": "item/wings/whitedevilwings" },
 		{ "predicate": { "damaged": 0, "damage": 0.087764253683536 }, "model": "item/wings/yellowdevilwings" },
-		{ "predicate": { "damaged": 0, "damage": 0.088404868673927 }, "model": "item/all/rides/casey/casey_jr_special" },
+		{ "predicate": { "damaged": 0, "damage": 0.088404868673927 }, "model": "item/wings/rainbowdevilwings" },
 		{ "predicate": { "damaged": 0, "damage": 0.089045483664318 }, "model": "item/all/rides/casey/casey_elephants" },
 		{ "predicate": { "damaged": 0, "damage": 0.089686098654709 }, "model": "item/all/rides/casey/casey_animals" },
 		{ "predicate": { "damaged": 0, "damage": 0.090326713645099 }, "model": "item/all/rides/casey/casey_monkeys" },
