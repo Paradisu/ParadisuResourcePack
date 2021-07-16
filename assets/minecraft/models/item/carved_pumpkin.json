@@ -24,6 +24,6 @@
 		{"predicate":{"custom_model_data":18},"model":"paradisu:hats/catears/bluecat"},
 		{"predicate":{"custom_model_data":19},"model":"paradisu:hats/catears/pinkcat"},
 		{"predicate":{"custom_model_data":20},"model":"paradisu:hats/catears/rainbowcat"},
-		{"predicate":{"custom_model_data":21},"model":"paradisu:blackparadehat"}
+		{"predicate":{"custom_model_data":21},"model":"paradisu:hats/blackparadehat"}
 	]
 }
