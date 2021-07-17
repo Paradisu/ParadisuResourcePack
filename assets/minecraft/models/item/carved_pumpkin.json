@@ -1,0 +1,29 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:block/carved_pumpkin"
+	},
+	"overrides": [
+		{"predicate":{"custom_model_data":1},"model":"paradisu:hats/mariocap"},
+		{"predicate":{"custom_model_data":2},"model":"paradisu:hats/marioconst"},
+		{"predicate":{"custom_model_data":3},"model":"paradisu:hats/luigicap"},
+		{"predicate":{"custom_model_data":4},"model":"paradisu:hats/peachescrown"},
+		{"predicate":{"custom_model_data":5},"model":"paradisu:hats/sailormoon"},
+		{"predicate":{"custom_model_data":6},"model":"paradisu:hats/sharkhat"},
+		{"predicate":{"custom_model_data":7},"model":"paradisu:hats/bye2020glasses"},
+		{"predicate":{"custom_model_data":8},"model":"paradisu:hats/zeroheadband"},
+		{"predicate":{"custom_model_data":9},"model":"paradisu:hats/wanda"},
+		{"predicate":{"custom_model_data":10},"model":"paradisu:hats/mais"},
+		{"predicate":{"custom_model_data":11},"model":"paradisu:hats/llamahat"},
+		{"predicate":{"custom_model_data":12},"model":"paradisu:hats/jpwrangler"},
+		{"predicate":{"custom_model_data":13},"model":"paradisu:hats/captainhat"},
+		{"predicate":{"custom_model_data":14},"model":"paradisu:hats/betterthanimodshat"},
+		{"predicate":{"custom_model_data":15},"model":"paradisu:hats/imodbutlarger"},
+		{"predicate":{"custom_model_data":16},"model":"paradisu:hats/catears/blackcat"},
+		{"predicate":{"custom_model_data":17},"model":"paradisu:hats/catears/whitecat"},
+		{"predicate":{"custom_model_data":18},"model":"paradisu:hats/catears/bluecat"},
+		{"predicate":{"custom_model_data":19},"model":"paradisu:hats/catears/pinkcat"},
+		{"predicate":{"custom_model_data":20},"model":"paradisu:hats/catears/rainbowcat"},
+		{"predicate":{"custom_model_data":21},"model":"paradisu:hats/blackparadehat"}
+	]
+}
