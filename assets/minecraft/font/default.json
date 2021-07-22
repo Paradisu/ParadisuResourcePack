@@ -76,6 +76,13 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue00a"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/discord.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue00b"]
         }
     ]
 }
