@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "custom/Ice_Side",
-		"1": "custom/Ice_Sediment",
-		"2": "custom/Ice_Top_snow",
-		"particle": "custom/Ice_Side"
+		"0": "paradisu:custom/ice_side",
+		"1": "paradisu:custom/ice_sediment",
+		"2": "paradisu:custom/ice_top_snow",
+		"particle": "paradisu:custom/ice_side"
 	},
 	"elements": [
 		{
