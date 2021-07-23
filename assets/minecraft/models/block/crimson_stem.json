@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "paradisu:custom/ice_sediment"
+		"1": "paradisu:custom/ice_sediment",
+		"particle": "paradisu:custom/ice_sediment"
 	},
 	"elements": [
 		{
