@@ -135,6 +135,7 @@
 		{"predicate":{"custom_model_data":137},"model":"paradisu:wings/yellowdevilwings"},
 		{"predicate":{"custom_model_data":138},"model":"paradisu:wings/rainbowdevilwings"},
 		{"predicate":{"custom_model_data":145},"model":"paradisu:vehicles/flyingdinobot"},
-		{"predicate":{"custom_model_data":146},"model":"paradisu:toys/dubsteplauncher"}
+		{"predicate":{"custom_model_data":146},"model":"paradisu:toys/dubsteplauncher"},
+		{"predicate":{"custom_model_data":147},"model":"paradisu:props/amongusbookshelf"}
 	  ]
 }
