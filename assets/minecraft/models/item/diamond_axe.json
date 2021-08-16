@@ -137,6 +137,11 @@
 		{"predicate":{"custom_model_data":145},"model":"paradisu:vehicles/flyingdinobot"},
 		{"predicate":{"custom_model_data":146},"model":"paradisu:toys/dubsteplauncher"},
 		{"predicate":{"custom_model_data":147},"model":"paradisu:props/amongusbookshelf"},
-		{"predicate":{"custom_model_data":148},"model":"paradisu:props/columbuspillar"}
+		{"predicate":{"custom_model_data":148},"model":"paradisu:props/columbuspillar"},
+		{"predicate":{"custom_model_data":149},"model":"paradisu:arms/armtone1"},
+		{"predicate":{"custom_model_data":150},"model":"paradisu:arms/armtone2"},
+		{"predicate":{"custom_model_data":151},"model":"paradisu:arms/armtone3"},
+		{"predicate":{"custom_model_data":152},"model":"paradisu:arms/armtone4"},
+		{"predicate":{"custom_model_data":153},"model":"paradisu:arms/armtone5"}
 	  ]
 }
