@@ -143,5 +143,6 @@
 		{"predicate":{"custom_model_data":151},"model":"paradisu:arms/armtone3"},
 		{"predicate":{"custom_model_data":152},"model":"paradisu:arms/armtone4"},
 		{"predicate":{"custom_model_data":153},"model":"paradisu:arms/armtone5"},
+		{"predicate":{"custom_model_data":154},"model":"paradisu:props/springtraphead"}
 	  ]
 }
