@@ -5,7 +5,7 @@
 		"2": "block/stone",
 		"3": "block/brown_concrete_powder",
 		"4": "block/stripped_oak_log",
-		"5": "paradisu:block/smooth_stone_slab_side",
+		"5": "block/smooth_stone_slab_side",
 		"6": "block/scaffolding_top",
 		"8": "block/birch_trapdoor",
 		"particle": "block/red_concrete"
@@ -3145,7 +3145,7 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [-6, -20.75, 14.5],
+			"translation": [-6, -20.75, 36.5],
 			"scale": [3, 3, 3]
 		},
 		"thirdperson_lefthand": {
