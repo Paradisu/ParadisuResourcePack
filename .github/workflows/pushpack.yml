@@ -38,7 +38,7 @@ jobs:
       run: sudo apt-get install -y pngquant libpng-dev
     - name: Minify images
       continue-on-error: true
-      run: find . -type f -name '*.png' -exec pngquant --strip -f --ext .png {} \;
+      run: find . -type f -name '*.png' -exec pngquant --strip -f --ext .png {} \; 2>/dev/null
     - name: Compress pack
       run: zip -8 -r -X  ParadisuResourcePack.zip *
     - name: Generate release diff
