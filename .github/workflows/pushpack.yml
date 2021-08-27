@@ -32,6 +32,12 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         tag_prefix: ''
         custom_tag: ${{ steps.lookupPackVersion.outputs.PACK_VERSION }}
+    - name: Minify JSON
+      run: find . -type f \( -iname \*.json -o -iname \*.mcmeta \) -print0 | while IFS= read -r -d '' line; do jq -c 'del(.credit, .groups)' ${line} > ${line}.tmp && mv ${line}.tmp ${line}; done
+    - name: Install pngquant
+      run: sudo apt-get install pngquant
+    - name: Minify images
+      run: find . -type f -name '*.png' -print0 | while IFS= read -r -d '' line; do pngquant --strip -f --ext .png ${line}; done
     - name: Compress pack
       run: zip -8 -r -X  ParadisuResourcePack.zip *
     - name: Generate release diff
