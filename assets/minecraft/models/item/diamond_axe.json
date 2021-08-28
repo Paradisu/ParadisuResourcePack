@@ -80,6 +80,7 @@
 		{"predicate":{"custom_model_data":74},"model":"paradisu:toys/jakecompass"},
 		{"predicate":{"custom_model_data":75},"model":"paradisu:props/shyguy"},
 		{"predicate":{"custom_model_data":76},"model":"paradisu:icons/xsign"},
+		{"predicate":{"custom_model_data":77},"model":"paradisu:arms/armtone6"},
 		{"predicate":{"custom_model_data":79},"model":"paradisu:vehicles/yoshi_ride_1"},
 		{"predicate":{"custom_model_data":80},"model":"paradisu:vehicles/yoshi_ride_2"},
 		{"predicate":{"custom_model_data":81},"model":"paradisu:vehicles/yoshi_ride_3"},
@@ -145,6 +146,6 @@
 		{"predicate":{"custom_model_data":153},"model":"paradisu:arms/armtone5"},
 		{"predicate":{"custom_model_data":154},"model":"paradisu:props/springtraphead"},
 		{"predicate":{"custom_model_data":155},"model":"paradisu:props/itemframesink"},
-                {"predicate":{"custom_model_data":156},"model":"paradisu:vehicles/totridevehicle"}
+        {"predicate":{"custom_model_data":156},"model":"paradisu:vehicles/totridevehicle"}
 	  ]
 }

@@ -1,0 +1,7 @@
+{
+	"textures": {
+		"0": "block/stone",
+		"particle": "block/stone"
+	},
+	"parent": "paradisu:arms/armtone1"
+}

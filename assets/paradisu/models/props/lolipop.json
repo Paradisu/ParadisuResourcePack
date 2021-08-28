@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/red_glazed_terracotta",
 		"1": "block/white_wool",
@@ -15,7 +14,6 @@
 				"east": {"uv": [0, 0, 1, 7], "texture": "#1"},
 				"south": {"uv": [0, 0, 1, 7], "texture": "#1"},
 				"west": {"uv": [0, 0, 1, 7], "texture": "#1"},
-				"up": {"uv": [0, 0, 1, 1], "texture": "#1"},
 				"down": {"uv": [0, 0, 1, 1], "texture": "#1"}
 			}
 		},
