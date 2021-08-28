@@ -83,6 +83,41 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue00b"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/ranks/alt.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue00c"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/dm_arrow.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue00d"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/dm.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue00e"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/paradisu_dot_net.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue00f"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/paradisu.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue010"]
         }
     ]
 }
