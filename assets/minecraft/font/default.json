@@ -118,7 +118,7 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue010"]
-        }
+        },
         {
             "type": "bitmap",
             "file": "paradisu:font/system/lunarclient.png",
