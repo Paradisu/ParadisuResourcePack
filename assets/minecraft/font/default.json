@@ -139,6 +139,13 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/ranks/dev.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue014"]
         }
     ]
 }
