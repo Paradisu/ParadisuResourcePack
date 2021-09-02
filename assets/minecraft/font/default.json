@@ -132,6 +132,13 @@
             "ascent": 64,
             "height": 64,
             "chars": ["\ue012"]
+        },
+        {
+            "type": "ttf",
+            "file": "paradisu:font/system/negative_spaces.ttf",
+            "shift": [0.0, 0.0],
+            "size": 10.0,
+            "oversample": 1.0
         }
     ]
 }
