@@ -146,6 +146,13 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/paradisu2.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue015"]
         }
     ]
 }
