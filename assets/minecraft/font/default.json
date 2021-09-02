@@ -153,6 +153,13 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/paradisu_arrow.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue016"]
         }
     ]
 }
