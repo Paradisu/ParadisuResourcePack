@@ -134,11 +134,11 @@
             "chars": ["\ue012"]
         },
         {
-            "type": "ttf",
-            "file": "paradisu:font/system/negative_spaces.ttf",
-            "shift": [0.0, 0.0],
-            "size": 10.0,
-            "oversample": 1.0
+            "type": "bitmap",
+            "file": "paradisu:font/system/tab_line.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue013"]
         }
     ]
 }
