@@ -160,13 +160,6 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue016"]
-        },
-        {
-            "type": "bitmap",
-            "file": "paradisu:font/system/paradisu_logo_day.png",
-            "ascent": 7,
-            "height": 7,
-            "chars": ["\ue017"]
         }
     ]
 }
