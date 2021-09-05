@@ -147,6 +147,7 @@
 		{"predicate":{"custom_model_data":154},"model":"paradisu:props/springtraphead"},
 		{"predicate":{"custom_model_data":155},"model":"paradisu:props/itemframesink"},
                 {"predicate":{"custom_model_data":156},"model":"paradisu:vehicles/totridevehicle"},
-                {"predicate":{"custom_model_data":157},"model":"paradisu:playertoys/jake"}
+                {"predicate":{"custom_model_data":157},"model":"paradisu:playertoys/jake"},
+                {"predicate":{"custom_model_data":158},"model":"paradisu:playertoys/incredi"}
 	  ]
 }
