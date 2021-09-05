@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/lapis_block",
 		"1": "block/yellow_concrete",

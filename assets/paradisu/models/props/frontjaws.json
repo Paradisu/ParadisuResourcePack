@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/red_terracotta",
 		"1": "block/black_concrete",

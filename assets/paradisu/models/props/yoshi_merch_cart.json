@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/stripped_oak_log",
 		"1": "block/bamboo_stalk",
