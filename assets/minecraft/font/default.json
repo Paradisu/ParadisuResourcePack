@@ -118,6 +118,48 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/paradisu_logo_day.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/paradisu_logo_night.png",
+            "ascent": 64,
+            "height": 64,
+            "chars": ["\ue012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/tab_line.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/ranks/dev.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/paradisu2.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/paradisu_arrow.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue016"]
         }
     ]
 }
