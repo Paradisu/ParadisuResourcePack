@@ -101,6 +101,7 @@
 		{"predicate":{"custom_model_data":95},"model":"paradisu:props/mavsurfboard"},
 		{"predicate":{"custom_model_data":96},"model":"paradisu:props/whitespike"},
 		{"predicate":{"custom_model_data":97},"model":"paradisu:toys/spaceshuttle"},
+		{"predicate":{"custom_model_data":98},"model":"paradisu:props/casinobox"},
 		{"predicate":{"custom_model_data":99},"model":"paradisu:props/snwsign"},
 		{"predicate":{"custom_model_data":100},"model":"paradisu:ride_signs/jurassicsign"},
 		{"predicate":{"custom_model_data":101},"model":"paradisu:props/pathwaybush"},
