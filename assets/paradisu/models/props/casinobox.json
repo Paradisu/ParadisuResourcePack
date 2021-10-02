@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/black_concrete",
-		"1": "paradisu:custom/rainbow",
+		"1": "paradisu:custom/rainbowsnap",
 		"particle": "block/black_concrete"
 	},
 	"elements": [

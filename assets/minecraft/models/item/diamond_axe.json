@@ -122,6 +122,7 @@
 		{"predicate":{"custom_model_data":116},"model":"paradisu:food/travisscottmeal"},
 		{"predicate":{"custom_model_data":117},"model":"paradisu:toys/sportsball"},
 		{"predicate":{"custom_model_data":118},"model":"paradisu:toys/pulsescanner"},
+		{"predicate":{"custom_model_data":119},"model":"paradisu:props/musicblock"},
 		{"predicate":{"custom_model_data":122},"model":"paradisu:props/cplampspeaker"},
 		{"predicate":{"custom_model_data":123},"model":"paradisu:props/cp_fountain"},
 		{"predicate":{"custom_model_data":124},"model":"paradisu:vehicles/jurrasicfront"},
