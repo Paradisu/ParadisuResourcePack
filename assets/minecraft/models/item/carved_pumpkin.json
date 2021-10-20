@@ -25,6 +25,8 @@
 		{"predicate":{"custom_model_data":19},"model":"paradisu:hats/catears/pinkcat"},
 		{"predicate":{"custom_model_data":20},"model":"paradisu:hats/catears/rainbowcat"},
 		{"predicate":{"custom_model_data":21},"model":"paradisu:hats/blackparadehat"},
-		{"predicate":{"custom_model_data":22},"model":"paradisu:hats/antlers"}
+		{"predicate":{"custom_model_data":22},"model":"paradisu:hats/antlers"},
+		{"predicate":{"custom_model_data":23},"model":"paradisu:hats/huggywuggy"},
+		{"predicate":{"custom_model_data":24},"model":"paradisu:hats/clownmask"}
 	]
 }
