@@ -1,0 +1,16 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/honey_bottle"
+	},
+	"overrides": [
+		{"predicate":{"custom_model_data":1},"model":"paradisu:food/luigifood"},
+		{"predicate":{"custom_model_data":2},"model":"paradisu:food/mariofood"},
+		{"predicate":{"custom_model_data":3},"model":"paradisu:food/luigidrink"},
+		{"predicate":{"custom_model_data":4},"model":"paradisu:food/mariodrink"},
+		{"predicate":{"custom_model_data":5},"model":"paradisu:food/peachdrink"},
+		{"predicate":{"custom_model_data":6},"model":"paradisu:food/mariohillcake"},
+		{"predicate":{"custom_model_data":7},"model":"paradisu:food/travisscottmeal"},
+		{"predicate":{"custom_model_data":8},"model":"paradisu:food/"}
+	  ]
+}
