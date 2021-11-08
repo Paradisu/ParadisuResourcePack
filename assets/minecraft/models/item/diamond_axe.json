@@ -162,6 +162,8 @@
 		{"predicate":{"custom_model_data":158},"model":"paradisu:props/springtrap_torso"},
 		{"predicate":{"custom_model_data":159},"model":"paradisu:props/vcake"},
 		{"predicate":{"custom_model_data":160},"model":"paradisu:props/springtrap_leg"},
-		{"predicate":{"custom_model_data":161},"model":"paradisu:props/springtrap_bicep"}
+		{"predicate":{"custom_model_data":161},"model":"paradisu:props/springtrap_bicep"},
+		{"predicate":{"custom_model_data":162},"model":"paradisu:food/mariohillcake"},
+		{"predicate":{"custom_model_data":163},"model":"paradisu:props/longfullpipe"}
 	  ]
 }
