@@ -55,7 +55,7 @@
 		{"predicate":{"custom_model_data":49},"model":"paradisu:props/billcannon"},
 		{"predicate":{"custom_model_data":50},"model":"paradisu:toys/marioband"},
 		{"predicate":{"custom_model_data":51},"model":"paradisu:toys/luigiband"},
-		{"predicate":{"custom_model_data":52},"model":"paradisu:props/yoshiegg"},
+		{"predicate":{"custom_model_data":52},"model":"paradisu:props/yoshieggs/green"},
 		{"predicate":{"custom_model_data":53},"model":"paradisu:props/yoshi"},
 		{"predicate":{"custom_model_data":54},"model":"paradisu:props/thwomp"},
 		{"predicate":{"custom_model_data":55},"model":"paradisu:food/mariofood"},
@@ -146,6 +146,8 @@
 		{"predicate":{"custom_model_data":140},"model":"paradisu:props/musicblockgreen"},
 		{"predicate":{"custom_model_data":141},"model":"paradisu:props/musicblockblue"},
 		{"predicate":{"custom_model_data":142},"model":"paradisu:props/huggywuggy2"},
+		{"predicate":{"custom_model_data":143},"model":"paradisu:props/yoshieggs/blue"},
+		{"predicate":{"custom_model_data":144},"model":"paradisu:props/yoshieggs/gold"},
 		{"predicate":{"custom_model_data":145},"model":"paradisu:vehicles/flyingdinobot"},
 		{"predicate":{"custom_model_data":146},"model":"paradisu:toys/dubsteplauncher"},
 		{"predicate":{"custom_model_data":147},"model":"paradisu:props/amongusbookshelf"},
@@ -164,6 +166,9 @@
 		{"predicate":{"custom_model_data":160},"model":"paradisu:props/springtrap_leg"},
 		{"predicate":{"custom_model_data":161},"model":"paradisu:props/springtrap_bicep"},
 		{"predicate":{"custom_model_data":162},"model":"paradisu:food/mariohillcake"},
-		{"predicate":{"custom_model_data":163},"model":"paradisu:props/longfullpipe"}
+		{"predicate":{"custom_model_data":163},"model":"paradisu:props/longfullpipe"},
+		{"predicate":{"custom_model_data":164},"model":"paradisu:props/yoshieggs/pink"},
+		{"predicate":{"custom_model_data":165},"model":"paradisu:props/yoshieggs/red"},
+		{"predicate":{"custom_model_data":166},"model":"paradisu:props/yoshieggs/yellow"}
 	  ]
 }

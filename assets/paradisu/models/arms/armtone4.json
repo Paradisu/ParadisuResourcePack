@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "entity/bed/brown",
+		"0": "block/stripped_spruce_log",
 		"particle": "entity/bed/brown"
 	},
 	"parent": "paradisu:arms/armtone1"
