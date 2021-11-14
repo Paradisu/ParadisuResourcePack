@@ -1,20 +1,59 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Push Pack
 
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ master ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 jobs:
-  build:
+  lint:
+    name: Lint Code Base
     runs-on: ubuntu-latest
-
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Lint Code Base
+        uses: github/super-linter@v3
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_YAML: true
+          VALIDATE_JSON: true
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  validate-version:
+    name: Validate Version
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+    - name: Get previous tag
+      id: get-previous-tag
+      uses: actions-ecosystem/action-get-latest-tag@v1
+    - name: Validate Version
+      env:
+        PREVIOUS_VERSION: ${{ steps.get-previous-tag.outputs.tag }}
+      run: |
+        CURRENT_VERSION=$(jq -r .pack.version pack.mcmeta)
+        PREV_VER_GEQ_CUR_VER=$(
+          jq -r -n --arg previous_version "${PREVIOUS_VERSION}" --arg current_version "${CURRENT_VERSION}" '
+          def ver2arr($inp): ($inp | split(".") | map(tonumber)); 
+            ver2arr($previous_version) as $ver_prev  
+          | ver2arr($current_version) as $ver_cur 
+          | if ($ver_prev[0] > $ver_cur[0]) or ($ver_prev[1] > $ver_cur[1]) or ($ver_prev[2] >= $ver_cur[2]) then true else false end
+        ')
+        if [ "${PREV_VER_GR_EQ_CUR_VER}" == "true" ]
+        then
+          echo "Previous version is greater than or equal to current version."
+          echo "Please update pack.mcmeta with a version greater than ${PREVIOUS_VERSION} before pushing again!"
+          exit 1
+        fi
+  build:
+    name: Compress and Send Pack
+    needs: [lint, validate-version]
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
       with:
