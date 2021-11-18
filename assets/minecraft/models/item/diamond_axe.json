@@ -169,6 +169,10 @@
 		{"predicate":{"custom_model_data":163},"model":"paradisu:props/longfullpipe"},
 		{"predicate":{"custom_model_data":164},"model":"paradisu:props/yoshieggs/pink"},
 		{"predicate":{"custom_model_data":165},"model":"paradisu:props/yoshieggs/red"},
-		{"predicate":{"custom_model_data":166},"model":"paradisu:props/yoshieggs/yellow"}
+		{"predicate":{"custom_model_data":166},"model":"paradisu:props/yoshieggs/yellow"},
+		{"predicate":{"custom_model_data":167},"model":"paradisu:vehicles/tdserr/1"},
+		{"predicate":{"custom_model_data":168},"model":"paradisu:vehicles/tdserr/2"},
+		{"predicate":{"custom_model_data":169},"model":"paradisu:vehicles/tdserr/3"},
+		{"predicate":{"custom_model_data":170},"model":"paradisu:toys/bombomb"}
 	  ]
 }
