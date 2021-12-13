@@ -173,6 +173,7 @@
 		{"predicate":{"custom_model_data":167},"model":"paradisu:vehicles/tdserr/1"},
 		{"predicate":{"custom_model_data":168},"model":"paradisu:vehicles/tdserr/2"},
 		{"predicate":{"custom_model_data":169},"model":"paradisu:vehicles/tdserr/3"},
-		{"predicate":{"custom_model_data":170},"model":"paradisu:toys/bombomb"}
+		{"predicate":{"custom_model_data":170},"model":"paradisu:toys/bombomb"},
+		{"predicate":{"custom_model_data":171},"model":"paradisu:props/tdsnywlamp1"}
 	  ]
 }
