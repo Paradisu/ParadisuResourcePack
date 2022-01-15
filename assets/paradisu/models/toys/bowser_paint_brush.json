@@ -6,8 +6,8 @@
 		"2": "block/red_concrete",
 		"3": "block/blue_wool",
 		"5": "block/white_wool",
-		"6": "custom/bowserjr",
-		"7": "custom/magicbrush",
+		"6": "paradisu:custom/bowserjr",
+		"7": "paradisu:custom/magicbrush",
 		"particle": "block/beehive_end"
 	},
 	"elements": [
