@@ -179,6 +179,7 @@
 		{"predicate":{"custom_model_data":173},"model":"paradisu:props/mushrooms/mushroom_red"},
 		{"predicate":{"custom_model_data":174},"model":"paradisu:props/mushrooms/mushroom_green"},
 		{"predicate":{"custom_model_data":175},"model":"paradisu:props/applebasket"},
-		{"predicate":{"custom_model_data":176},"model":"paradisu:toys/bowser_paint_brush"}
+		{"predicate":{"custom_model_data":176},"model":"paradisu:toys/bowser_paint_brush"},
+		{"predicate":{"custom_model_data":177},"model":"paradisu:props/slidingyoshibar"}
 	  ]
 }
