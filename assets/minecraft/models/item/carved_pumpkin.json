@@ -28,6 +28,8 @@
 		{"predicate":{"custom_model_data":22},"model":"paradisu:hats/antlers"},
 		{"predicate":{"custom_model_data":23},"model":"paradisu:hats/huggywuggy"},
 		{"predicate":{"custom_model_data":24},"model":"paradisu:hats/clownmask"},
-		{"predicate":{"custom_model_data":25},"model":"paradisu:hats/coppertophat"}
+		{"predicate":{"custom_model_data":25},"model":"paradisu:hats/coppertophat"},
+		{"predicate":{"custom_model_data":26},"model":"paradisu:hats/bearears/bear_brown"},
+		{"predicate":{"custom_model_data":27},"model":"paradisu:hats/bearears/bear_pink"}
 	]
 }

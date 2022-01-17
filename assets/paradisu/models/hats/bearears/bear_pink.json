@@ -1,0 +1,6 @@
+{
+	"textures": {
+		"1": "block/pink_wool"
+	},
+	"parent": "paradisu:hats/bearears/bear_brown"
+}
