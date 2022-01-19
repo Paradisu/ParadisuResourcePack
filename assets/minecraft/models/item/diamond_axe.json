@@ -180,6 +180,10 @@
 		{"predicate":{"custom_model_data":174},"model":"paradisu:props/mushrooms/mushroom_green"},
 		{"predicate":{"custom_model_data":175},"model":"paradisu:props/applebasket"},
 		{"predicate":{"custom_model_data":176},"model":"paradisu:toys/bowser_paint_brush"},
-		{"predicate":{"custom_model_data":177},"model":"paradisu:props/slidingyoshibar"}
+		{"predicate":{"custom_model_data":177},"model":"paradisu:props/slidingyoshibar"},
+		{"predicate":{"custom_model_data":178},"model":"paradisu:props/goombas/uno"},
+		{"predicate":{"custom_model_data":179},"model":"paradisu:props/goombas/dos"},
+		{"predicate":{"custom_model_data":180},"model":"paradisu:props/goombas/tres"},
+		{"predicate":{"custom_model_data":181},"model":"paradisu:props/goombas/quatro"}
 	  ]
 }

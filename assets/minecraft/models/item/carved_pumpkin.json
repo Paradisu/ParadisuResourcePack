@@ -31,6 +31,6 @@
 		{"predicate":{"custom_model_data":25},"model":"paradisu:hats/coppertophat"},
 		{"predicate":{"custom_model_data":26},"model":"paradisu:hats/bearears/bear_brown"},
 		{"predicate":{"custom_model_data":27},"model":"paradisu:hats/bearears/bear_pink"},
-		{"predicate":{"custom_model_data":28},"model":"paradisu:hats/goombastack"}
+		{"predicate":{"custom_model_data":28},"model":"paradisu:props/goombas/goombastack"}
 	]
 }
