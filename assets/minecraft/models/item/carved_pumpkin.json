@@ -32,8 +32,8 @@
 		{"predicate":{"custom_model_data":26},"model":"paradisu:hats/bearears/bear_brown"},
 		{"predicate":{"custom_model_data":27},"model":"paradisu:hats/bearears/bear_pink"},
 		{"predicate":{"custom_model_data":28},"model":"paradisu:props/goombas/goombastack"},
-		{"predicate":{"custom_model_data":29},"model":"paradisu:props/hats/cowboy/black"},
-		{"predicate":{"custom_model_data":30},"model":"paradisu:props/hats/cowboy/brown"},
-		{"predicate":{"custom_model_data":31},"model":"paradisu:props/hats/cowboy/white"}
+		{"predicate":{"custom_model_data":29},"model":"paradisu:hats/cowboy/black"},
+		{"predicate":{"custom_model_data":30},"model":"paradisu:hats/cowboy/brown"},
+		{"predicate":{"custom_model_data":31},"model":"paradisu:hats/cowboy/white"}
 	]
 }
