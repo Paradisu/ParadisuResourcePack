@@ -184,6 +184,8 @@
 		{"predicate":{"custom_model_data":178},"model":"paradisu:props/goombas/uno"},
 		{"predicate":{"custom_model_data":179},"model":"paradisu:props/goombas/dos"},
 		{"predicate":{"custom_model_data":180},"model":"paradisu:props/goombas/tres"},
-		{"predicate":{"custom_model_data":181},"model":"paradisu:props/goombas/quatro"}
+		{"predicate":{"custom_model_data":181},"model":"paradisu:props/goombas/quatro"},
+		{"predicate":{"custom_model_data":182},"model":"paradisu:pins/pokemon/pokeball_normal"},
+		{"predicate":{"custom_model_data":183},"model":"paradisu:props/records/mbdtf"}
 	  ]
 }

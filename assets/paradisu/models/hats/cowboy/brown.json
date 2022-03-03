@@ -1,0 +1,6 @@
+{
+	"textures": {
+		"0": "block/brown_concrete"
+	},
+	"parent": "paradisu:hats/cowboy/black"
+}
