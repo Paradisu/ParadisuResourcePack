@@ -189,6 +189,7 @@
 		{"predicate":{"custom_model_data":183},"model":"paradisu:props/records/mbdtf"},
 		{"predicate":{"custom_model_data":184},"model":"paradisu:props/showcase_ring"},
 		{"predicate":{"custom_model_data":185},"model":"paradisu:props/displaycase"},
-		{"predicate":{"custom_model_data":186},"model":"paradisu:cars/delorean"}
+		{"predicate":{"custom_model_data":186},"model":"paradisu:cars/delorean"},
+		{"predicate":{"custom_model_data":187},"model":"paradisu:cars/batmobile"}
 	  ]
 }
