@@ -192,6 +192,7 @@
 		{"predicate":{"custom_model_data":186},"model":"paradisu:cars/delorean"},
 		{"predicate":{"custom_model_data":187},"model":"paradisu:cars/batmobile"},
 		{"predicate":{"custom_model_data":188},"model":"paradisu:props/snw_bench"},
-		{"predicate":{"custom_model_data":189},"model":"paradisu:props/cardreader"}
+		{"predicate":{"custom_model_data":189},"model":"paradisu:props/cardreader"},
+		{"predicate":{"custom_model_data":190},"model":"paradisu:props/bluefire"}
 	  ]
 }
