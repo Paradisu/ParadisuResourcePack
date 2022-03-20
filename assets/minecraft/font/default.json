@@ -160,6 +160,13 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue016"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/system/shop.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue017"]
         }
     ]
 }
