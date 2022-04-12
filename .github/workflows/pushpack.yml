@@ -98,6 +98,6 @@ jobs:
       env:
         PTERODACTYL_TOKEN: ${{ secrets.PTERODACTYL_TOKEN }}
       run: |
-        curl "https://panel.disneyland.network/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp generatehashes"}'
+        curl "https://panel.paradisu.net/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp generatehashes"}'
         sleep 30
-        curl "https://panel.disneyland.network/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp reload resend"}'
+        curl "https://panel.paradisu.net/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp reload resend"}'
