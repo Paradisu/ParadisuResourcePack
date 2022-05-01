@@ -105,5 +105,5 @@ jobs:
                break
             fi
         done
-        sleep 0.25
+        sleep 2
         curl "https://panel.paradisu.net/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp reload resend"}'
