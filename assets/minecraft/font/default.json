@@ -167,6 +167,13 @@
             "ascent": 7,
             "height": 7,
             "chars": ["\ue017"]
+        },
+        {
+            "type": "bitmap",
+            "file": "paradisu:font/ranks/animator.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue018"]
         }
     ]
 }
