@@ -1,8 +1,9 @@
 name: Push Pack
 
 on:
-  push:
-    branches: [ master ]
+    push:
+        paths:
+            - "pack.mcmeta"
 
 jobs:
   lint:
@@ -14,13 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Lint Code Base
-        uses: github/super-linter@v4
-        env:
-          VALIDATE_ALL_CODEBASE: false
-          VALIDATE_YAML: true
-          VALIDATE_JSON: true
-          DEFAULT_BRANCH: master
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: find . -type f \( -iname \*.json -o -iname \*.mcmeta \) -print0 | while IFS= read -r -d '' line; do echo Validating ${line} && jq empty ${line} || exit 1; done && echo All JSON files are valid
   validate-version:
     name: Validate Version
     runs-on: ubuntu-latest
@@ -53,6 +48,7 @@ jobs:
     name: Compress and Send Pack
     needs: [lint, validate-version]
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
     - uses: actions/checkout@v2
       with:
@@ -94,10 +90,20 @@ jobs:
         prerelease: false
         tag: ${{ steps.lookupPackVersion.outputs.PACK_VERSION }}
         token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Install Websocat
+      run: wget https://github.com/vi/websocat/releases/download/v1.9.0/websocat_linux64 && sudo chmod +x websocat_linux64 && sudo mv websocat_linux64 /usr/bin/websocat
     - name: Update pack on server
+      continue-on-error: true
       env:
         PTERODACTYL_TOKEN: ${{ secrets.PTERODACTYL_TOKEN }}
       run: |
-        curl "https://panel.paradisu.net/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp generatehashes"}'
-        sleep 30
-        curl "https://panel.paradisu.net/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp reload resend"}'
+        curl -sL "https://panel.paradisu.net/api/client/servers/978fd706/websocket" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X GET | jq -c '{"event":"auth","args":[.data.token]}' > console_auth.json
+        curl "https://panel.paradisu.net/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp generatehashes"}' &
+        cat console_auth.json | websocat -qn wss://node.paradisu.net:8080/api/servers/978fd706-76c2-453a-ac64-0ec58c98f5e2/ws | while IFS= read -r line; do
+            if [[ $line =~ "packs changed! Saving to config" ]]; then
+               echo Server downloaded and hashed new pack
+               sleep 1
+               curl "https://panel.paradisu.net/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp reload resend"}'
+               break
+            fi
+        done
