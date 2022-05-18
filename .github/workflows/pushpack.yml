@@ -97,13 +97,13 @@ jobs:
       env:
         PTERODACTYL_TOKEN: ${{ secrets.PTERODACTYL_TOKEN }}
       run: |
-        curl -sL "https://panel.paradisu.net/api/client/servers/978fd706/websocket" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X GET | jq -c '{"event":"auth","args":[.data.token]}' > console_auth.json
-        curl "https://panel.paradisu.net/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp generatehashes"}' &
-        cat console_auth.json | websocat -qn wss://node.paradisu.net:8080/api/servers/978fd706-76c2-453a-ac64-0ec58c98f5e2/ws | while IFS= read -r line; do
+        curl -sL "https://panel.paradisu.net/api/client/servers/517d0585/websocket" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X GET | jq -c '{"event":"auth","args":[.data.token]}' > console_auth.json
+        curl "https://panel.paradisu.net/api/client/servers/517d0585/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp generatehashes"}' &
+        cat console_auth.json | websocat -qn wss://node.paradisu.net:8080/api/servers/517d0585-7db1-4875-908f-f12e451b2327/ws | while IFS= read -r line; do
             if [[ $line =~ "packs changed! Saving to config" ]]; then
                echo Server downloaded and hashed new pack
                sleep 1
-               curl "https://panel.paradisu.net/api/client/servers/978fd706/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp reload resend"}'
+               curl "https://panel.paradisu.net/api/client/servers/517d0585/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp reload resend"}'
                break
             fi
         done
