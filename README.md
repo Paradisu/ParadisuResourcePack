@@ -1,6 +1,6 @@
-# Paradisu Plugin [![GitHub Super-Linter](https://github.com/Paradisu/ParadisuResourcePack/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter) [![GitHub release](https://img.shields.io/github/release/Paradisu/ParadisuResourcePack.svg)](https://GitHub.com/Paradisu/ParadisuResourcePack/releases/) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/7ERVDKFFxT)
+# Paradisu Resource Pack [![GitHub Super-Linter](https://github.com/Paradisu/ParadisuResourcePack/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter) [![GitHub release](https://img.shields.io/github/release/Paradisu/ParadisuResourcePack.svg)](https://GitHub.com/Paradisu/ParadisuResourcePack/releases/) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/7ERVDKFFxT)
 
-The official resource pack for the Paradisu server. The plugin aims to provide many the models and textures for the Paradisu project. For more information about the Paradisu project, feel free to join the [Discord](https://discord.gg/gQcu2XYd2K)
+The official resource pack for the Paradisu server. The pack aims to provide many the models and textures for the Paradisu project. For more information about the Paradisu project, feel free to join the [Discord](https://discord.gg/gQcu2XYd2K)
 
 Please feel free to use this pack to learn about implementing certain resource pack features.
 
