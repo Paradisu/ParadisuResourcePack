@@ -194,6 +194,6 @@
 		{"predicate":{"custom_model_data":188},"model":"paradisu:props/snw_bench"},
 		{"predicate":{"custom_model_data":189},"model":"paradisu:props/cardreader"},
 		{"predicate":{"custom_model_data":190},"model":"paradisu:props/bluefire"},
-		{"predicate":{"custom_model_data":191},"model":"paradisu:playertoys/elgato"}
+		{"predicate":{"custom_model_data":191},"model":"paradisu:props/hottopic_sign"}
 	  ]
 }
