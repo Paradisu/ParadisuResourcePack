@@ -2,7 +2,7 @@
 	"credit": "Made By JJakee",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "warppipe"
+		"1": "paradisu:custom/warppipe"
 	},
 	"elements": [
 		{
