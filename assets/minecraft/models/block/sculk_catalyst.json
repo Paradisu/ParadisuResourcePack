@@ -1,9 +1,10 @@
 {
+	"credit": "Made By JJakee",
 	"parent": "minecraft:block/cube_bottom_top",
 	"textures": {
+		"particle": "block/warped_nylium",
 		"top": "block/warped_nylium",
 		"side": "block/warped_nylium_side",
-		"bottom": "block/crimson_nylium_side",
-		"particle": "block/warped_nylium"
+		"bottom": "block/deepslate_copper_ore"
 	}
 }
