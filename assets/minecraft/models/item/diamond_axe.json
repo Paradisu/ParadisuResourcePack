@@ -196,5 +196,6 @@
 		{"predicate":{"custom_model_data":190},"model":"paradisu:props/bluefire"},
 		{"predicate":{"custom_model_data":191},"model":"paradisu:props/hott_sign"},
 		{"predicate":{"custom_model_data":192},"model":"paradisu:props/opic_sign"}
+		{"predicate":{"custom_model_data":193},"model":"paradisu:props/moes_tavern_nametag"}
 	  ]
 }
