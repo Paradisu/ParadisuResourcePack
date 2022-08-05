@@ -1,0 +1,8 @@
+{
+	"textures": {
+		"0": "block/cyan_terracotta",
+		"1": "block/cyan_terracotta",
+		"particle": "block/cyan_terracotta"
+	},
+	"parent": "block/oxidized_cut_copper_slab"
+}
