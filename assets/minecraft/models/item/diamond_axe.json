@@ -159,8 +159,8 @@
 		{"predicate":{"custom_model_data":153},"model":"paradisu:arms/armtone5"},
 		{"predicate":{"custom_model_data":154},"model":"paradisu:props/springtraphead"},
 		{"predicate":{"custom_model_data":155},"model":"paradisu:props/itemframesink"},
-        	{"predicate":{"custom_model_data":156},"model":"paradisu:vehicles/totridevehicle"},
-        	{"predicate":{"custom_model_data":157},"model":"paradisu:playertoys/jake"},
+        {"predicate":{"custom_model_data":156},"model":"paradisu:vehicles/totridevehicle"},
+        {"predicate":{"custom_model_data":157},"model":"paradisu:playertoys/jake"},
 		{"predicate":{"custom_model_data":158},"model":"paradisu:props/springtrap_torso"},
 		{"predicate":{"custom_model_data":159},"model":"paradisu:props/vcake"},
 		{"predicate":{"custom_model_data":160},"model":"paradisu:props/springtrap_leg"},
@@ -196,6 +196,7 @@
 		{"predicate":{"custom_model_data":190},"model":"paradisu:props/bluefire"},
 		{"predicate":{"custom_model_data":191},"model":"paradisu:props/hott_sign"},
 		{"predicate":{"custom_model_data":192},"model":"paradisu:props/opic_sign"},
-		{"predicate":{"custom_model_data":193},"model":"paradisu:props/moes_tavern_nametag"}
+		{"predicate":{"custom_model_data":193},"model":"paradisu:props/moes_tavern_nametag"},
+		{"predicate":{"custom_model_data":194},"model":"paradisu:props/universal_studios_globe"}
 	  ]
 }
