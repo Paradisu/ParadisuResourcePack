@@ -1,0 +1,40 @@
+{
+	"credit": "Made By JJakee",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "paradisu:custom/jurassicworldsign",
+		"particle": "paradisu:custom/jurassicworldsign"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 7.5],
+			"to": [32, 22, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7.5, -0.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 12, 5.5], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, 99, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 99, 0]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, -23.75, 0],
+			"scale": [2.7, 2.7, 2.7]
+		},
+		"fixed": {
+			"scale": [4, 4, 4]
+		}
+	}
+}
