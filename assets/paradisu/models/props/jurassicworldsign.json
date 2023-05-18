@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "paradisu:custom/jurrassic_world.png",
-		"particle": "paradisu:custom/jurrassic_world.png"
+		"0": "paradisu:custom/jurrassic_world",
+		"particle": "paradisu:custom/jurrassic_world"
 	},
 	"elements": [
 		{
