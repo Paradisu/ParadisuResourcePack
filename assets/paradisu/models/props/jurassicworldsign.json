@@ -1,40 +1,56 @@
 {
-	"credit": "Made By JJakee",
-	"texture_size": [32, 32],
+	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "paradisu:custom/jurassicworldsign",
-		"particle": "paradisu:custom/jurassicworldsign"
+		"0": "paradisu:custom/jurrassic_world.png",
+		"particle": "paradisu:custom/jurrassic_world.png"
 	},
 	"elements": [
 		{
-			"from": [-16, 0, 7.5],
-			"to": [32, 22, 7.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7.5, -0.5]},
+			"from": [-16, 0, 6],
+			"to": [32, 32, 6],
 			"faces": {
-				"north": {"uv": [0, 0, 12, 5.5], "texture": "#2"}
+				"north": {"uv": [0, 0, 16, 10.66667], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [16, 0, 0, 10.66667], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#missing"}
 			}
 		}
 	],
 	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 2],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 2],
+			"scale": [0.25, 0.25, 0.25]
+		},
 		"firstperson_righthand": {
-			"rotation": [0, 99, 0]
+			"translation": [0, 0, 2],
+			"scale": [0.25, 0.25, 0.25]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 99, 0]
+			"translation": [0, 0, 2],
+			"scale": [0.25, 0.25, 0.25]
 		},
 		"ground": {
-			"scale": [0.5, 0.5, 0.5]
+			"translation": [0, 0, 2],
+			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
-			"rotation": [0, 180, 0],
-			"scale": [0.5, 0.5, 0.5]
+			"rotation": [0, -180, 0],
+			"translation": [0, -2.25, 2],
+			"scale": [0.25, 0.25, 0.25]
 		},
 		"head": {
-			"translation": [0, -23.75, 0],
-			"scale": [2.7, 2.7, 2.7]
+			"translation": [0, 0, 1.5],
+			"scale": [1.75, 1.75, 1.75]
 		},
 		"fixed": {
-			"scale": [4, 4, 4]
+			"translation": [0, -19.25, 4.25],
+			"scale": [2.2, 2.2, 2.2]
 		}
 	}
 }
