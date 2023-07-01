@@ -1,7 +1,7 @@
 {
   "pack": {
-    "pack_format": 12,
+    "pack_format": 15,
     "description": "§e[§6Paradisu§e] §fEnjoy the server!",
-    "version": "2.55.0"
+    "version": "2.55.1"
   }
 }
