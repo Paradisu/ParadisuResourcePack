@@ -1,9 +1,9 @@
 name: Push Pack
 
 on:
-    push:
-        paths:
-            - "pack.mcmeta"
+  push:
+    branches:
+      - "*"
 
 jobs:
   lint:
@@ -11,61 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        # See https://github.com/actions/checkout/releases
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
           fetch-depth: 0
       - name: Lint Code Base
         run: find . -type f \( -iname \*.json -o -iname \*.mcmeta \) -print0 | while IFS= read -r -d '' line; do echo Validating ${line} && jq empty ${line} || exit 1; done && echo All JSON files are valid
-  validate-version:
-    name: Validate Version
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Get previous tag
-        id: get-previous-tag
-        uses: actions-ecosystem/action-get-latest-tag@v1
-      - name: Validate Version
-        env:
-          PREVIOUS_VERSION: ${{ steps.get-previous-tag.outputs.tag }}
-        run: |
-          CURRENT_VERSION=$(jq -r .pack.version pack.mcmeta)
-          PREV_VER_GEQ_CUR_VER=$(
-            jq -r -n --arg previous_version "${PREVIOUS_VERSION}" --arg current_version "${CURRENT_VERSION}" '
-            def ver2arr($inp): ($inp | split(".") | map(tonumber)); 
-              ver2arr($previous_version) as $ver_prev  
-            | ver2arr($current_version) as $ver_cur 
-            | if ($ver_prev[0] > $ver_cur[0]) or ($ver_prev[1] > $ver_cur[1] and $ver_cur[1] != 0) or ($ver_prev[2] >= $ver_cur[2] and $ver_cur[2] != 0) then true else false end
-          ')
-          if [ "${PREV_VER_GEQ_CUR_VER}" = true ]; then
-            echo "Previous version is greater than or equal to current version."
-            echo "Please update pack.mcmeta with a valid SemVer version greater than ${PREVIOUS_VERSION} before pushing again!"
-            exit 1
-          fi
   build:
     name: Compress and Send Pack
-    needs: [lint, validate-version]
+    needs: [lint]
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-    - name: Get previous tag
-      id: get-previous-tag
-      uses: actions-ecosystem/action-get-latest-tag@v1
-    - name: Get pack version from pack.mcmeta
-      id: lookupPackVersion
-      run: echo "::set-output name=PACK_VERSION::$(jq -r .pack.version pack.mcmeta)"
-    - name: Bump version and push tag
-      id: tag_version
-      uses: mathieudutour/github-tag-action@v5.5
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        tag_prefix: ''
-        custom_tag: ${{ steps.lookupPackVersion.outputs.PACK_VERSION }}
+    - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - name: Minify JSON
       run: find . -type f \( -iname \*.json -o -iname \*.mcmeta \) -print0 | while IFS= read -r -d '' line; do jq -c 'del(.credit, .groups)' ${line} > ${line}.tmp && mv ${line}.tmp ${line}; done
     - name: Install pngquant
@@ -75,35 +33,36 @@ jobs:
       run: find . -type f -name '*.png' -exec pngquant --strip -f --ext .png {} \; 2>/dev/null
     - name: Compress pack
       run: zip -8 -r -X  ParadisuResourcePack.zip *
-    - name: Generate release diff
-      env:
-        BEGIN_COMMIT: ${{ steps.get-previous-tag.outputs.tag }}
-        END_COMMIT: ${{ steps.lookupPackVersion.outputs.PACK_VERSION }}
-      run: git fetch --tags --force && git log --pretty=format:"* %s (%h)" ${BEGIN_COMMIT}..${END_COMMIT} > release_notes.md
-    - name: Create release
-      uses: ncipollo/release-action@v1
+    - name: Create Release
+      # See https://github.com/Kas-tle/base-release-action/releases
+      uses: Kas-tle/base-release-action@b863fa0f89bd15267a96a72efb84aec25f168d4c # main-11
+      if: ${{ success() && github.repository == 'Paradisu/ParadisuResourcePack' }}
+      id: release
       with:
-        artifacts: ParadisuResourcePack.zip
-        allowUpdates: true
-        bodyFile: "release_notes.md"
-        draft: false
-        prerelease: false
-        tag: ${{ steps.lookupPackVersion.outputs.PACK_VERSION }}
-        token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Install Websocat
-      run: wget https://github.com/vi/websocat/releases/download/v1.9.0/websocat_linux64 && sudo chmod +x websocat_linux64 && sudo mv websocat_linux64 /usr/bin/websocat
-    - name: Update pack on server
-      continue-on-error: true
+        files: |
+          ParadisuResourcePack.zip
+        appID: ${{ secrets.RELEASE_APP_ID }}
+        appPrivateKey: ${{ secrets.RELEASE_APP_PK }}
+        preRelease: ${{ github.ref_name != 'master' }}
+        discordWebhook: ${{ secrets.DISCORD_WEBHOOK }}
+    - name: Setup NodeJS
+      # See https://github.com/actions/setup-node/releases
+      uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8
+      if: ${{ success() && github.repository == 'Paradisu/ParadisuResourcePack' && github.ref_name == 'master' }}
+    - name: Publish Pack to Server
+      if: ${{ success() && github.repository == 'Paradisu/ParadisuResourcePack' && github.ref_name == 'master' }}
       env:
-        PTERODACTYL_TOKEN: ${{ secrets.PTERODACTYL_TOKEN }}
-      run: |
-        curl -sL "https://panel.kastle.dev/api/client/servers/517d0585/websocket" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X GET | jq -c '{"event":"auth","args":[.data.token]}' > console_auth.json
-        curl "https://panel.kastle.dev/api/client/servers/517d0585/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp generatehashes"}' &
-        cat console_auth.json | websocat -qn wss://node.paradisu.net:8080/api/servers/517d0585-7db1-4875-908f-f12e451b2327/ws | while IFS= read -r line; do
-            if [[ $line =~ "packs changed! Saving to config" ]]; then
-               echo Server downloaded and hashed new pack
-               sleep 1
-               curl "https://panel.kastle.dev/api/client/servers/517d0585/command" -H 'Accept: application/json' -H 'Content-Type: application/json' -H "Authorization: Bearer ${PTERODACTYL_TOKEN}" -X POST -d '{"command": "frp reload resend"}'
-               break
-            fi
-        done
+        PTEROPUB_CONFIG: ${{ secrets.PTEROPUB_CONFIG }}
+      run: npx pteropub
+  upload-logs:
+    name: Upload Logs
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+    - name: Upload Logs
+      # See https://github.com/Kas-tle/release-build-log-action/releases
+      if: ${{ success() && github.repository == 'Paradisu/ParadisuPlugin' }}
+      uses: Kas-tle/release-build-log-action@1b57448eaf9476e6e05450e4ea240449eac2c0d2 # main-3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        releaseID: ${{ needs.build.outputs.release_id }}
