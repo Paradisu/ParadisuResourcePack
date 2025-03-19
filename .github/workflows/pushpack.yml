@@ -61,7 +61,7 @@ jobs:
     steps:
     - name: Upload Logs
       # See https://github.com/Kas-tle/release-build-log-action/releases
-      if: ${{ success() && github.repository == 'Paradisu/ParadisuPlugin' }}
+      if: ${{ success() && github.repository == 'Paradisu/ParadisuResourcePack' }}
       uses: Kas-tle/release-build-log-action@1b57448eaf9476e6e05450e4ea240449eac2c0d2 # main-3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
