@@ -22,6 +22,8 @@ jobs:
     needs: [lint]
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+        release_id: ${{ steps.release.outputs.releaseID }}
     steps:
     - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
     - name: Minify JSON
