@@ -3,1373 +3,1371 @@
         "type": "range_dispatch",
         "property": "custom_model_data",
         "entries": [
-            [
-                {
-                    "threshold": 1,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/warppipe_full"
-                    }
-                },
-                {
-                    "threshold": 2,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/warppipe_half"
-                    }
-                },
-                {
-                    "threshold": 3,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/spawnlights"
-                    }
-                },
-                {
-                    "threshold": 4,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/lolipop"
-                    }
-                },
-                {
-                    "threshold": 5,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/urine"
-                    }
-                },
-                {
-                    "threshold": 6,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/openingpost"
-                    }
-                },
-                {
-                    "threshold": 7,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/ribbon"
-                    }
-                },
-                {
-                    "threshold": 8,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/stainedglasspeach"
-                    }
-                },
-                {
-                    "threshold": 9,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:ride_signs/nintendosign"
-                    }
-                },
-                {
-                    "threshold": 10,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:ride_signs/supersign"
-                    }
-                },
-                {
-                    "threshold": 11,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:ride_signs/nintendosign2"
-                    }
-                },
-                {
-                    "threshold": 12,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:ride_signs/worldsign"
-                    }
-                },
-                {
-                    "threshold": 13,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/bigsword"
-                    }
-                },
-                {
-                    "threshold": 14,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/mysterybox"
-                    }
-                },
-                {
-                    "threshold": 15,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/castle_wall_window"
-                    }
-                },
-                {
-                    "threshold": 16,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/yellowspike"
-                    }
-                },
-                {
-                    "threshold": 17,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/goldcoin2"
-                    }
-                },
-                {
-                    "threshold": 18,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/questionmarkcoin"
-                    }
-                },
-                {
-                    "threshold": 19,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/lamppost"
-                    }
-                },
-                {
-                    "threshold": 20,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/lampposttop"
-                    }
-                },
-                {
-                    "threshold": 21,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/bottomleftarrow"
-                    }
-                },
-                {
-                    "threshold": 22,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/bottomrightarrow"
-                    }
-                },
-                {
-                    "threshold": 23,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/greenshell"
-                    }
-                },
-                {
-                    "threshold": 24,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/checkmark"
-                    }
-                },
-                {
-                    "threshold": 25,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/dividesign"
-                    }
-                },
-                {
-                    "threshold": 26,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/downarrow"
-                    }
-                },
-                {
-                    "threshold": 27,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/equalssign"
-                    }
-                },
-                {
-                    "threshold": 28,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/leftarrow"
-                    }
-                },
-                {
-                    "threshold": 29,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/minussign"
-                    }
-                },
-                {
-                    "threshold": 30,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/jawsboat1"
-                    }
-                },
-                {
-                    "threshold": 31,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/jawsboat2"
-                    }
-                },
-                {
-                    "threshold": 32,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/mushroomtable1"
-                    }
-                },
-                {
-                    "threshold": 33,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/mushroomtable2"
-                    }
-                },
-                {
-                    "threshold": 34,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/mushroomtable3"
-                    }
-                },
-                {
-                    "threshold": 35,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/clouds"
-                    }
-                },
-                {
-                    "threshold": 36,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/bulletbill"
-                    }
-                },
-                {
-                    "threshold": 37,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/3waypipe"
-                    }
-                },
-                {
-                    "threshold": 38,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/marioflag"
-                    }
-                },
-                {
-                    "threshold": 39,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/fireflower"
-                    }
-                },
-                {
-                    "threshold": 40,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/keycoin"
-                    }
-                },
-                {
-                    "threshold": 41,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/minussign"
-                    }
-                },
-                {
-                    "threshold": 42,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/darksaber"
-                    }
-                },
-                {
-                    "threshold": 43,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/red_powblock"
-                    }
-                },
-                {
-                    "threshold": 44,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/blue_powblock"
-                    }
-                },
-                {
-                    "threshold": 45,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/frontjaws"
-                    }
-                },
-                {
-                    "threshold": 46,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/multiplysign"
-                    }
-                },
-                {
-                    "threshold": 47,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/plussign"
-                    }
-                },
-                {
-                    "threshold": 48,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/rightarrow"
-                    }
-                },
-                {
-                    "threshold": 49,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/billcannon"
-                    }
-                },
-                {
-                    "threshold": 50,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/marioband"
-                    }
-                },
-                {
-                    "threshold": 51,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/luigiband"
-                    }
-                },
-                {
-                    "threshold": 52,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/yoshieggs/green"
-                    }
-                },
-                {
-                    "threshold": 53,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/yoshi"
-                    }
-                },
-                {
-                    "threshold": 54,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/thwomp"
-                    }
-                },
-                {
-                    "threshold": 55,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:food/mariofood"
-                    }
-                },
-                {
-                    "threshold": 56,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:food/luigifood"
-                    }
-                },
-                {
-                    "threshold": 57,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:food/mariodrink"
-                    }
-                },
-                {
-                    "threshold": 58,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:food/luigidrink"
-                    }
-                },
-                {
-                    "threshold": 59,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:food/peachdrink"
-                    }
-                },
-                {
-                    "threshold": 60,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/topleftarrow"
-                    }
-                },
-                {
-                    "threshold": 61,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/palutenastaff"
-                    }
-                },
-                {
-                    "threshold": 62,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/odmgearmain"
-                    }
-                },
-                {
-                    "threshold": 63,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/odmgearoff"
-                    }
-                },
-                {
-                    "threshold": 64,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/goomba1"
-                    }
-                },
-                {
-                    "threshold": 65,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/goomba2"
-                    }
-                },
-                {
-                    "threshold": 66,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/goomba3"
-                    }
-                },
-                {
-                    "threshold": 67,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/piranhajaw"
-                    }
-                },
-                {
-                    "threshold": 68,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/piranhastem"
-                    }
-                },
-                {
-                    "threshold": 69,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/piranhamouth"
-                    }
-                },
-                {
-                    "threshold": 70,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/texcompass"
-                    }
-                },
-                {
-                    "threshold": 71,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/toprightarrow"
-                    }
-                },
-                {
-                    "threshold": 72,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/uparrow"
-                    }
-                },
-                {
-                    "threshold": 73,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/eboymccompass"
-                    }
-                },
-                {
-                    "threshold": 74,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/jakecompass"
-                    }
-                },
-                {
-                    "threshold": 75,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/shyguy"
-                    }
-                },
-                {
-                    "threshold": 76,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:icons/xsign"
-                    }
-                },
-                {
-                    "threshold": 77,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:arms/armtone6"
-                    }
-                },
-                {
-                    "threshold": 78,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:playertoys/incredi"
-                    }
-                },
-                {
-                    "threshold": 79,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/yoshi_ride_1"
-                    }
-                },
-                {
-                    "threshold": 80,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/yoshi_ride_2"
-                    }
-                },
-                {
-                    "threshold": 81,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/yoshi_ride_3"
-                    }
-                },
-                {
-                    "threshold": 82,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/yoshi_ride_4"
-                    }
-                },
-                {
-                    "threshold": 83,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/yoshi_ride_5"
-                    }
-                },
-                {
-                    "threshold": 84,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/yoshi_ride_6"
-                    }
-                },
-                {
-                    "threshold": 85,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/yoshi_ride_7"
-                    }
-                },
-                {
-                    "threshold": 86,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/yoshi_ride_8"
-                    }
-                },
-                {
-                    "threshold": 87,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/yoshi_ride_bar"
-                    }
-                },
-                {
-                    "threshold": 88,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:trashcans/blackrecyclecan"
-                    }
-                },
-                {
-                    "threshold": 89,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:trashcans/blacktrashcan"
-                    }
-                },
-                {
-                    "threshold": 90,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:trashcans/aquarecyclecan"
-                    }
-                },
-                {
-                    "threshold": 91,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:trashcans/aquatrashcan"
-                    }
-                },
-                {
-                    "threshold": 92,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/yoshi_merch_cart"
-                    }
-                },
-                {
-                    "threshold": 93,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/waterworld_spinner"
-                    }
-                },
-                {
-                    "threshold": 94,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/jawsamitysign"
-                    }
-                },
-                {
-                    "threshold": 95,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/mavsurfboard"
-                    }
-                },
-                {
-                    "threshold": 96,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/whitespike"
-                    }
-                },
-                {
-                    "threshold": 97,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/spaceshuttle"
-                    }
-                },
-                {
-                    "threshold": 98,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/casinobox"
-                    }
-                },
-                {
-                    "threshold": 99,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/snwsign"
-                    }
-                },
-                {
-                    "threshold": 100,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:ride_signs/jurassicsign"
-                    }
-                },
-                {
-                    "threshold": 101,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/pathwaybush"
-                    }
-                },
-                {
-                    "threshold": 102,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:terminator/terminatorhead"
-                    }
-                },
-                {
-                    "threshold": 103,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:terminator/terminatorbody2"
-                    }
-                },
-                {
-                    "threshold": 104,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:terminator/terminatorbicep1"
-                    }
-                },
-                {
-                    "threshold": 105,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:terminator/terminatorleftthigh1"
-                    }
-                },
-                {
-                    "threshold": 106,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:terminator/terminatortrighthigh1"
-                    }
-                },
-                {
-                    "threshold": 107,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:terminator/terminatorleftleg"
-                    }
-                },
-                {
-                    "threshold": 108,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:terminator/terminator_lefthand1"
-                    }
-                },
-                {
-                    "threshold": 109,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:terminator/terminator_righthand1"
-                    }
-                },
-                {
-                    "threshold": 110,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:terminator/terminatorleftleg"
-                    }
-                },
-                {
-                    "threshold": 111,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/hyrdocoinstack"
-                    }
-                },
-                {
-                    "threshold": 112,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/batteryparkclockbottom"
-                    }
-                },
-                {
-                    "threshold": 113,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/batteryparkclocktop"
-                    }
-                },
-                {
-                    "threshold": 114,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/batteryparkclockboth"
-                    }
-                },
-                {
-                    "threshold": 115,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/bp_park_lamp"
-                    }
-                },
-                {
-                    "threshold": 116,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:food/travisscottmeal"
-                    }
-                },
-                {
-                    "threshold": 117,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/sportsball"
-                    }
-                },
-                {
-                    "threshold": 118,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/pulsescanner"
-                    }
-                },
-                {
-                    "threshold": 119,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/musicblock"
-                    }
-                },
-                {
-                    "threshold": 120,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/musicblockpink"
-                    }
-                },
-                {
-                    "threshold": 121,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/musicblockred"
-                    }
-                },
-                {
-                    "threshold": 122,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/cplampspeaker"
-                    }
-                },
-                {
-                    "threshold": 123,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/cp_fountain"
-                    }
-                },
-                {
-                    "threshold": 124,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/jurrasicfront"
-                    }
-                },
-                {
-                    "threshold": 125,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/jurrasicback"
-                    }
-                },
-                {
-                    "threshold": 126,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/jurrasicparkride"
-                    }
-                },
-                {
-                    "threshold": 127,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/huggywuggy1"
-                    }
-                },
-                {
-                    "threshold": 128,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/slurpeemachine"
-                    }
-                },
-                {
-                    "threshold": 129,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/jurrasicpodium"
-                    }
-                },
-                {
-                    "threshold": 130,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/sodafountain"
-                    }
-                },
-                {
-                    "threshold": 131,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:wings/reddevilwings"
-                    }
-                },
-                {
-                    "threshold": 132,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:wings/bluedevilwings"
-                    }
-                },
-                {
-                    "threshold": 133,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:wings/cyandevilwings"
-                    }
-                },
-                {
-                    "threshold": 134,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:wings/greendevilwings"
-                    }
-                },
-                {
-                    "threshold": 135,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:wings/magentadevilwings"
-                    }
-                },
-                {
-                    "threshold": 136,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:wings/whitedevilwings"
-                    }
-                },
-                {
-                    "threshold": 137,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:wings/yellowdevilwings"
-                    }
-                },
-                {
-                    "threshold": 138,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:wings/rainbowdevilwings"
-                    }
-                },
-                {
-                    "threshold": 139,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/musicblockyellow"
-                    }
-                },
-                {
-                    "threshold": 140,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/musicblockgreen"
-                    }
-                },
-                {
-                    "threshold": 141,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/musicblockblue"
-                    }
-                },
-                {
-                    "threshold": 142,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/huggywuggy2"
-                    }
-                },
-                {
-                    "threshold": 143,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/yoshieggs/blue"
-                    }
-                },
-                {
-                    "threshold": 144,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/yoshieggs/gold"
-                    }
-                },
-                {
-                    "threshold": 145,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/flyingdinobot"
-                    }
-                },
-                {
-                    "threshold": 146,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/dubsteplauncher"
-                    }
-                },
-                {
-                    "threshold": 147,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/amongusbookshelf"
-                    }
-                },
-                {
-                    "threshold": 148,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/columbuspillar"
-                    }
-                },
-                {
-                    "threshold": 149,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:arms/armtone1"
-                    }
-                },
-                {
-                    "threshold": 150,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:arms/armtone2"
-                    }
-                },
-                {
-                    "threshold": 151,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:arms/armtone3"
-                    }
-                },
-                {
-                    "threshold": 152,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:arms/armtone4"
-                    }
-                },
-                {
-                    "threshold": 153,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:arms/armtone5"
-                    }
-                },
-                {
-                    "threshold": 154,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/springtraphead"
-                    }
-                },
-                {
-                    "threshold": 155,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/itemframesink"
-                    }
-                },
-                {
-                    "threshold": 156,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/totridevehicle"
-                    }
-                },
-                {
-                    "threshold": 157,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:playertoys/jake"
-                    }
-                },
-                {
-                    "threshold": 158,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/springtrap_torso"
-                    }
-                },
-                {
-                    "threshold": 159,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/vcake"
-                    }
-                },
-                {
-                    "threshold": 160,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/springtrap_leg"
-                    }
-                },
-                {
-                    "threshold": 161,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/springtrap_bicep"
-                    }
-                },
-                {
-                    "threshold": 162,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:food/mariohillcake"
-                    }
-                },
-                {
-                    "threshold": 163,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/longfullpipe"
-                    }
-                },
-                {
-                    "threshold": 164,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/yoshieggs/pink"
-                    }
-                },
-                {
-                    "threshold": 165,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/yoshieggs/red"
-                    }
-                },
-                {
-                    "threshold": 166,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/yoshieggs/yellow"
-                    }
-                },
-                {
-                    "threshold": 167,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/tdserr/1"
-                    }
-                },
-                {
-                    "threshold": 168,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/tdserr/2"
-                    }
-                },
-                {
-                    "threshold": 169,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:vehicles/tdserr/3"
-                    }
-                },
-                {
-                    "threshold": 170,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/bombomb"
-                    }
-                },
-                {
-                    "threshold": 171,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/tdsnywlamp1"
-                    }
-                },
-                {
-                    "threshold": 172,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:playertoys/eboy"
-                    }
-                },
-                {
-                    "threshold": 173,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/mushrooms/mushroom_red"
-                    }
-                },
-                {
-                    "threshold": 174,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/mushrooms/mushroom_green"
-                    }
-                },
-                {
-                    "threshold": 175,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/applebasket"
-                    }
-                },
-                {
-                    "threshold": 176,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:toys/bowser_paint_brush"
-                    }
-                },
-                {
-                    "threshold": 177,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/slidingyoshibar"
-                    }
-                },
-                {
-                    "threshold": 178,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/goombas/uno"
-                    }
-                },
-                {
-                    "threshold": 179,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/goombas/dos"
-                    }
-                },
-                {
-                    "threshold": 180,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/goombas/tres"
-                    }
-                },
-                {
-                    "threshold": 181,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/goombas/quatro"
-                    }
-                },
-                {
-                    "threshold": 182,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:pins/pokemon/pokeball_normal"
-                    }
-                },
-                {
-                    "threshold": 183,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/records/mbdtf"
-                    }
-                },
-                {
-                    "threshold": 184,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/showcase_ring"
-                    }
-                },
-                {
-                    "threshold": 185,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/displaycase"
-                    }
-                },
-                {
-                    "threshold": 186,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:cars/delorean"
-                    }
-                },
-                {
-                    "threshold": 187,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:cars/batmobile"
-                    }
-                },
-                {
-                    "threshold": 188,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/snw_bench"
-                    }
-                },
-                {
-                    "threshold": 189,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/cardreader"
-                    }
-                },
-                {
-                    "threshold": 190,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/bluefire"
-                    }
-                },
-                {
-                    "threshold": 191,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/hott_sign"
-                    }
-                },
-                {
-                    "threshold": 192,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/opic_sign"
-                    }
-                },
-                {
-                    "threshold": 193,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/moes_tavern_nametag"
-                    }
-                },
-                {
-                    "threshold": 194,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/universal_studios_globe"
-                    }
-                },
-                {
-                    "threshold": 195,
-                    "model": {
-                        "type": "model",
-                        "model": "paradisu:props/jurassicworldsign"
-                    }
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/warppipe_full"
                 }
-            ]
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/warppipe_half"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/spawnlights"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/lolipop"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/urine"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/openingpost"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/ribbon"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/stainedglasspeach"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:ride_signs/nintendosign"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:ride_signs/supersign"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:ride_signs/nintendosign2"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:ride_signs/worldsign"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/bigsword"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/mysterybox"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/castle_wall_window"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/yellowspike"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/goldcoin2"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/questionmarkcoin"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/lamppost"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/lampposttop"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/bottomleftarrow"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/bottomrightarrow"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/greenshell"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/checkmark"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/dividesign"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/downarrow"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/equalssign"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/leftarrow"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/minussign"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/jawsboat1"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/jawsboat2"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/mushroomtable1"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/mushroomtable2"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/mushroomtable3"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/clouds"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/bulletbill"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/3waypipe"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/marioflag"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/fireflower"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/keycoin"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/minussign"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/darksaber"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/red_powblock"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/blue_powblock"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/frontjaws"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/multiplysign"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/plussign"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/rightarrow"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/billcannon"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/marioband"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/luigiband"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/yoshieggs/green"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/yoshi"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/thwomp"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:food/mariofood"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:food/luigifood"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:food/mariodrink"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:food/luigidrink"
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:food/peachdrink"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/topleftarrow"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/palutenastaff"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/odmgearmain"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/odmgearoff"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/goomba1"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/goomba2"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/goomba3"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/piranhajaw"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/piranhastem"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/piranhamouth"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/texcompass"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/toprightarrow"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/uparrow"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/eboymccompass"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/jakecompass"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/shyguy"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:icons/xsign"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:arms/armtone6"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:playertoys/incredi"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/yoshi_ride_1"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/yoshi_ride_2"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/yoshi_ride_3"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/yoshi_ride_4"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/yoshi_ride_5"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/yoshi_ride_6"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/yoshi_ride_7"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/yoshi_ride_8"
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/yoshi_ride_bar"
+                }
+            },
+            {
+                "threshold": 88,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:trashcans/blackrecyclecan"
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:trashcans/blacktrashcan"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:trashcans/aquarecyclecan"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:trashcans/aquatrashcan"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/yoshi_merch_cart"
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/waterworld_spinner"
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/jawsamitysign"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/mavsurfboard"
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/whitespike"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/spaceshuttle"
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/casinobox"
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/snwsign"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:ride_signs/jurassicsign"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/pathwaybush"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:terminator/terminatorhead"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:terminator/terminatorbody2"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:terminator/terminatorbicep1"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:terminator/terminatorleftthigh1"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:terminator/terminatortrighthigh1"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:terminator/terminatorleftleg"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:terminator/terminator_lefthand1"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:terminator/terminator_righthand1"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:terminator/terminatorleftleg"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/hyrdocoinstack"
+                }
+            },
+            {
+                "threshold": 112,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/batteryparkclockbottom"
+                }
+            },
+            {
+                "threshold": 113,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/batteryparkclocktop"
+                }
+            },
+            {
+                "threshold": 114,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/batteryparkclockboth"
+                }
+            },
+            {
+                "threshold": 115,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/bp_park_lamp"
+                }
+            },
+            {
+                "threshold": 116,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:food/travisscottmeal"
+                }
+            },
+            {
+                "threshold": 117,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/sportsball"
+                }
+            },
+            {
+                "threshold": 118,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/pulsescanner"
+                }
+            },
+            {
+                "threshold": 119,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/musicblock"
+                }
+            },
+            {
+                "threshold": 120,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/musicblockpink"
+                }
+            },
+            {
+                "threshold": 121,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/musicblockred"
+                }
+            },
+            {
+                "threshold": 122,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/cplampspeaker"
+                }
+            },
+            {
+                "threshold": 123,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/cp_fountain"
+                }
+            },
+            {
+                "threshold": 124,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/jurrasicfront"
+                }
+            },
+            {
+                "threshold": 125,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/jurrasicback"
+                }
+            },
+            {
+                "threshold": 126,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/jurrasicparkride"
+                }
+            },
+            {
+                "threshold": 127,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/huggywuggy1"
+                }
+            },
+            {
+                "threshold": 128,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/slurpeemachine"
+                }
+            },
+            {
+                "threshold": 129,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/jurrasicpodium"
+                }
+            },
+            {
+                "threshold": 130,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/sodafountain"
+                }
+            },
+            {
+                "threshold": 131,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wings/reddevilwings"
+                }
+            },
+            {
+                "threshold": 132,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wings/bluedevilwings"
+                }
+            },
+            {
+                "threshold": 133,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wings/cyandevilwings"
+                }
+            },
+            {
+                "threshold": 134,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wings/greendevilwings"
+                }
+            },
+            {
+                "threshold": 135,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wings/magentadevilwings"
+                }
+            },
+            {
+                "threshold": 136,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wings/whitedevilwings"
+                }
+            },
+            {
+                "threshold": 137,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wings/yellowdevilwings"
+                }
+            },
+            {
+                "threshold": 138,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wings/rainbowdevilwings"
+                }
+            },
+            {
+                "threshold": 139,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/musicblockyellow"
+                }
+            },
+            {
+                "threshold": 140,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/musicblockgreen"
+                }
+            },
+            {
+                "threshold": 141,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/musicblockblue"
+                }
+            },
+            {
+                "threshold": 142,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/huggywuggy2"
+                }
+            },
+            {
+                "threshold": 143,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/yoshieggs/blue"
+                }
+            },
+            {
+                "threshold": 144,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/yoshieggs/gold"
+                }
+            },
+            {
+                "threshold": 145,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/flyingdinobot"
+                }
+            },
+            {
+                "threshold": 146,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/dubsteplauncher"
+                }
+            },
+            {
+                "threshold": 147,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/amongusbookshelf"
+                }
+            },
+            {
+                "threshold": 148,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/columbuspillar"
+                }
+            },
+            {
+                "threshold": 149,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:arms/armtone1"
+                }
+            },
+            {
+                "threshold": 150,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:arms/armtone2"
+                }
+            },
+            {
+                "threshold": 151,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:arms/armtone3"
+                }
+            },
+            {
+                "threshold": 152,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:arms/armtone4"
+                }
+            },
+            {
+                "threshold": 153,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:arms/armtone5"
+                }
+            },
+            {
+                "threshold": 154,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/springtraphead"
+                }
+            },
+            {
+                "threshold": 155,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/itemframesink"
+                }
+            },
+            {
+                "threshold": 156,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/totridevehicle"
+                }
+            },
+            {
+                "threshold": 157,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:playertoys/jake"
+                }
+            },
+            {
+                "threshold": 158,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/springtrap_torso"
+                }
+            },
+            {
+                "threshold": 159,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/vcake"
+                }
+            },
+            {
+                "threshold": 160,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/springtrap_leg"
+                }
+            },
+            {
+                "threshold": 161,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/springtrap_bicep"
+                }
+            },
+            {
+                "threshold": 162,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:food/mariohillcake"
+                }
+            },
+            {
+                "threshold": 163,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/longfullpipe"
+                }
+            },
+            {
+                "threshold": 164,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/yoshieggs/pink"
+                }
+            },
+            {
+                "threshold": 165,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/yoshieggs/red"
+                }
+            },
+            {
+                "threshold": 166,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/yoshieggs/yellow"
+                }
+            },
+            {
+                "threshold": 167,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/tdserr/1"
+                }
+            },
+            {
+                "threshold": 168,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/tdserr/2"
+                }
+            },
+            {
+                "threshold": 169,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/tdserr/3"
+                }
+            },
+            {
+                "threshold": 170,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/bombomb"
+                }
+            },
+            {
+                "threshold": 171,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/tdsnywlamp1"
+                }
+            },
+            {
+                "threshold": 172,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:playertoys/eboy"
+                }
+            },
+            {
+                "threshold": 173,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/mushrooms/mushroom_red"
+                }
+            },
+            {
+                "threshold": 174,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/mushrooms/mushroom_green"
+                }
+            },
+            {
+                "threshold": 175,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/applebasket"
+                }
+            },
+            {
+                "threshold": 176,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:toys/bowser_paint_brush"
+                }
+            },
+            {
+                "threshold": 177,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/slidingyoshibar"
+                }
+            },
+            {
+                "threshold": 178,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/goombas/uno"
+                }
+            },
+            {
+                "threshold": 179,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/goombas/dos"
+                }
+            },
+            {
+                "threshold": 180,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/goombas/tres"
+                }
+            },
+            {
+                "threshold": 181,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/goombas/quatro"
+                }
+            },
+            {
+                "threshold": 182,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:pins/pokemon/pokeball_normal"
+                }
+            },
+            {
+                "threshold": 183,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/records/mbdtf"
+                }
+            },
+            {
+                "threshold": 184,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/showcase_ring"
+                }
+            },
+            {
+                "threshold": 185,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/displaycase"
+                }
+            },
+            {
+                "threshold": 186,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:cars/delorean"
+                }
+            },
+            {
+                "threshold": 187,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:cars/batmobile"
+                }
+            },
+            {
+                "threshold": 188,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/snw_bench"
+                }
+            },
+            {
+                "threshold": 189,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/cardreader"
+                }
+            },
+            {
+                "threshold": 190,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/bluefire"
+                }
+            },
+            {
+                "threshold": 191,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/hott_sign"
+                }
+            },
+            {
+                "threshold": 192,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/opic_sign"
+                }
+            },
+            {
+                "threshold": 193,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/moes_tavern_nametag"
+                }
+            },
+            {
+                "threshold": 194,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/universal_studios_globe"
+                }
+            },
+            {
+                "threshold": 195,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/jurassicworldsign"
+                }
+            }
         ],
         "fallback": {
             "type": "model",
