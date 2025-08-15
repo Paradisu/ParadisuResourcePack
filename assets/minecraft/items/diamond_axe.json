@@ -1367,6 +1367,13 @@
                     "type": "model",
                     "model": "paradisu:props/jurassicworldsign"
                 }
+            },
+	    {
+                "threshold": 196,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/jwb_boat1"
+                }
             }
         ],
         "fallback": {
