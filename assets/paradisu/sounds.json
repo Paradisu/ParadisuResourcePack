@@ -1,0 +1,10 @@
+{
+    "jwr": {
+         "sounds":[
+             {
+                 "name": "paradisu:jwr",
+                 "stream": true
+             }
+         ]
+    }
+}
