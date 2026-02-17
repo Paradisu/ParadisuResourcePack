@@ -29,7 +29,9 @@ jobs:
     - name: Minify JSON
       run: find . -type f \( -iname \*.json -o -iname \*.mcmeta \) -print0 | while IFS= read -r -d '' line; do jq -c 'del(.credit, .groups)' ${line} > ${line}.tmp && mv ${line}.tmp ${line}; done
     - name: Install pngquant
-      run: sudo apt-get install -y pngquant libpng-dev
+      run: | 
+        sudo apt update
+        sudo apt-get install -y pngquant libpng-dev
     - name: Minify images
       continue-on-error: true
       run: find . -type f -name '*.png' -exec pngquant --strip -f --ext .png {} \; 2>/dev/null
