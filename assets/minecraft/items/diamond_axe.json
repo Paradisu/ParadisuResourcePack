@@ -1381,6 +1381,20 @@
                     "type": "model",
                     "model": "paradisu:vehicles/mummyride"
                 }
+            },
+            {
+                "threshold": 198,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/flight_of_hippo_cart"
+                }
+            },
+            {
+                "threshold": 199,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/flight_of_hippo_cart_front"
+                }
             }
             
         ],
