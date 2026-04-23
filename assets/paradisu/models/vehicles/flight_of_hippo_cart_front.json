@@ -3,9 +3,9 @@
 	"credit": "Made By JJakee",
 	"texture_size": [32, 32],
 	"textures": {
-		"3": "43534534534",
-		"4": "stripped_spruce_log",
-		"5": "texture2"
+		"3": "block/stripped_spruce_log",
+		"4": "block/stripped_spruce_log",
+		"5": "block/stripped_spruce_log"
 	},
 	"elements": [
 		{
