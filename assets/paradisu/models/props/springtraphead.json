@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/green_wool",
 		"1": "block/bone_block_side",

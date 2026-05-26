@@ -1,5 +1,8 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
+		"particle": "block/yellow_terracotta",
 		"yellowclay": "block/yellow_terracotta",
 		"oakwood": "block/oak_planks",
 		"blackconcrete": "block/black_concrete",

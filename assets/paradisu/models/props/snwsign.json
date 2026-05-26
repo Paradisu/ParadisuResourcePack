@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/iron_block",
 		"1": "block/red_concrete",
@@ -24,7 +26,6 @@
 			"faces": {
 				"north": {"uv": [1, 1, 5, 2], "texture": "#0"},
 				"south": {"uv": [1, 1, 5, 2], "texture": "#0"},
-				"west": {"uv": [1, 1, 5, 2], "texture": "#0"},
 				"up": {"uv": [1, 1, 5, 2], "texture": "#0"},
 				"down": {"uv": [1, 1, 5, 2], "texture": "#0"}
 			}

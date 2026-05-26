@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"3": "block/blast_furnace_side",
 		"4": "block/brewing_stand_base",
@@ -588,64 +590,106 @@
 			"translation": [0, 15.5, -12.5]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30,
+		31,
 		{
 			"name": "group",
 			"origin": [-11.48586, -3.82778, 3.75],
+			"scope": 0,
 			"color": 0,
 			"children": [32, 33, 34]
 		},
 		{
 			"name": "group",
 			"origin": [-11.48586, -3.82778, 3.75],
+			"scope": 0,
 			"color": 0,
 			"children": [35, 36, 37]
 		},
 		{
 			"name": "group",
 			"origin": [-11.48586, -3.82778, 3.75],
+			"scope": 0,
 			"color": 0,
 			"children": [38, 39, 40]
 		},
 		{
 			"name": "group",
 			"origin": [-11.48586, -3.82778, 3.75],
+			"scope": 0,
 			"color": 0,
 			"children": [41, 42, 43]
 		},
 		{
 			"name": "group",
 			"origin": [-11.48586, -3.82778, 3.75],
+			"scope": 0,
 			"color": 0,
 			"children": [44, 45, 46]
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": []
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": []
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": []
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": []
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": []
 		}

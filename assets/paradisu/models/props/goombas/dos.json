@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/mushroom_block_inside",
@@ -1165,12 +1166,14 @@
 		{
 			"name": "shoes",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [84, 85, 86, 87, 88, 89, 90]
 		},
 		{
 			"name": "shoes",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [91, 92, 93, 94, 95, 96, 97]
 		}

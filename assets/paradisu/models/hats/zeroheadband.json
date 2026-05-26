@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/iron_block",
 		"1": "block/redstone_block",
@@ -176,8 +178,7 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.76791, 2.53571, 5.21471]},
 			"faces": {
 				"north": {"uv": [2, 1, 10, 2], "texture": "#0"},
-				"up": {"uv": [2, 1, 10, 2], "texture": "#0"},
-				"down": {"uv": [2, 1, 10, 2], "texture": "#0"}
+				"up": {"uv": [2, 1, 10, 2], "texture": "#0"}
 			}
 		},
 		{
@@ -901,18 +902,21 @@
 		{
 			"name": "Headband",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
 		},
 		{
 			"name": "Le horns",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
 		},
 		{
 			"name": "Le horns",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76]
 		}

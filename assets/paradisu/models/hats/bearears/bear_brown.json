@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"1": "block/brown_wool",
@@ -554,7 +555,6 @@
 			"faces": {
 				"north": {"uv": [0, 0, 1, 1], "texture": "#3"},
 				"east": {"uv": [0, 0, 1, 1], "texture": "#3"},
-				"south": {"uv": [0, 0, 1, 1], "texture": "#3"},
 				"west": {"uv": [0, 0, 1, 1], "texture": "#3"},
 				"up": {"uv": [0, 0, 1, 1], "texture": "#3"}
 			}
@@ -590,7 +590,6 @@
 			"faces": {
 				"north": {"uv": [0, 0, 1, 1], "texture": "#3"},
 				"east": {"uv": [0, 0, 1, 1], "texture": "#3"},
-				"south": {"uv": [0, 0, 1, 1], "texture": "#3"},
 				"west": {"uv": [0, 0, 1, 1], "texture": "#3"},
 				"up": {"uv": [0, 0, 1, 1], "texture": "#3"}
 			}
@@ -672,23 +671,27 @@
 		{
 			"name": "Band",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2, 3, 4]
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [5, 6, 7, 8, 9, 10, 11, 12]
 		},
 		{
 			"name": "group",
 			"origin": [9.2, 8.5, 7.4],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "hexadecagon",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [
 						13,
@@ -708,6 +711,7 @@
 						{
 							"name": "hexadecagon",
 							"origin": [8, 8, 8],
+							"scope": 0,
 							"color": 0,
 							"children": [27, 28, 29, 30, 31, 32, 33, 34]
 						}
@@ -718,12 +722,14 @@
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [35, 36, 37, 38, 39, 40, 41, 42]
 		},
 		{
 			"name": "group",
 			"origin": [7.99961, 8.19475, 6.9164],
+			"scope": 0,
 			"color": 0,
 			"children": [43, 44, 45, 46, 47, 48, 49, 50, 51]
 		}

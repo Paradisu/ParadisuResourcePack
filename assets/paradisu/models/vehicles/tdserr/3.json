@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/cyan_terracotta",
@@ -245,9 +246,7 @@
 			"from": [11.4, 2.05, 7.75],
 			"to": [11.9, 2.35, 8.25],
 			"faces": {
-				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
-				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"up": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"}
@@ -257,9 +256,7 @@
 			"from": [11.4, 2.05, 6.85],
 			"to": [11.9, 2.35, 7.35],
 			"faces": {
-				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
-				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"up": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"}
@@ -273,9 +270,7 @@
 				"north": {"uv": [0, 0, 0.5, 0.5], "rotation": 180, "texture": "#1"},
 				"east": {"uv": [0, 0, 0.5, 0.5], "rotation": 270, "texture": "#1"},
 				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
-				"west": {"uv": [0, 0, 0.5, 0.5], "rotation": 90, "texture": "#1"},
-				"up": {"uv": [0, 0, 0.5, 0.5], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"}
+				"west": {"uv": [0, 0, 0.5, 0.5], "rotation": 90, "texture": "#1"}
 			}
 		},
 		{
@@ -286,18 +281,14 @@
 				"north": {"uv": [0, 0, 0.5, 0.5], "rotation": 180, "texture": "#1"},
 				"east": {"uv": [0, 0, 0.5, 0.5], "rotation": 270, "texture": "#1"},
 				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
-				"west": {"uv": [0, 0, 0.5, 0.5], "rotation": 90, "texture": "#1"},
-				"up": {"uv": [0, 0, 0.5, 0.5], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"}
+				"west": {"uv": [0, 0, 0.5, 0.5], "rotation": 90, "texture": "#1"}
 			}
 		},
 		{
 			"from": [4.2, 2.05, 6.85],
 			"to": [4.7, 2.35, 7.35],
 			"faces": {
-				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
-				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"up": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"}
@@ -311,18 +302,14 @@
 				"north": {"uv": [0, 0, 0.5, 0.5], "rotation": 180, "texture": "#1"},
 				"east": {"uv": [0, 0, 0.5, 0.5], "rotation": 270, "texture": "#1"},
 				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
-				"west": {"uv": [0, 0, 0.5, 0.5], "rotation": 90, "texture": "#1"},
-				"up": {"uv": [0, 0, 0.5, 0.5], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"}
+				"west": {"uv": [0, 0, 0.5, 0.5], "rotation": 90, "texture": "#1"}
 			}
 		},
 		{
 			"from": [4.2, 2.05, 7.75],
 			"to": [4.7, 2.35, 8.25],
 			"faces": {
-				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"east": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
-				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"west": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"up": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
 				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"}
@@ -336,9 +323,7 @@
 				"north": {"uv": [0, 0, 0.5, 0.5], "rotation": 180, "texture": "#1"},
 				"east": {"uv": [0, 0, 0.5, 0.5], "rotation": 270, "texture": "#1"},
 				"south": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"},
-				"west": {"uv": [0, 0, 0.5, 0.5], "rotation": 90, "texture": "#1"},
-				"up": {"uv": [0, 0, 0.5, 0.5], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [0, 0, 0.5, 0.5], "texture": "#1"}
+				"west": {"uv": [0, 0, 0.5, 0.5], "rotation": 90, "texture": "#1"}
 			}
 		},
 		{
@@ -438,6 +423,7 @@
 		{
 			"name": "WHEELS",
 			"origin": [0, 0, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
 		}

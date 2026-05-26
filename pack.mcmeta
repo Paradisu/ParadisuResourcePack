@@ -1,9 +1,10 @@
 {
     "pack": {
-        "pack_format": 46,
+        "min_format": 84,
+        "max_format": 84,
         "description": "§e[§6Paradisu§e] §fEnjoy the server!"
     },
     "meta": {
-        "game_version": "1.21.4"
+        "game_version": "1.26.1.2"
     }
 }

@@ -1,7 +1,9 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "paradisu:arms/armtone1",
 	"textures": {
 		"0": "block/brown_mushroom_block",
 		"particle": "block/brown_mushroom_block"
-	},
-	"parent": "paradisu:arms/armtone1"
+	}
 }

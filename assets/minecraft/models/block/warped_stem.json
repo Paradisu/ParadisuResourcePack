@@ -4,6 +4,7 @@
 	"textures": {
 		"particle": "block/warped_stem",
 		"side": "block/warped_stem",
+        "down": "block/warped_stem",
 		"top": "block/deepslate_copper_ore"
 	}
 }

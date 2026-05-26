@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/stripped_oak_log",
@@ -7,7 +8,7 @@
 		"4": "block/yellow_concrete_powder",
 		"5": "block/emerald_block",
 		"6": "block/pink_terracotta",
-		"7": "custom/mario",
+		"7": "paradisu:custom/mario",
 		"8": "block/black_concrete",
 		"particle": "block/stripped_oak_log"
 	},
@@ -308,8 +309,7 @@
 				"north": {"uv": [5, 6, 9, 13], "texture": "#0"},
 				"east": {"uv": [5, 6, 9, 13], "texture": "#0"},
 				"south": {"uv": [5, 6, 9, 13], "texture": "#0"},
-				"west": {"uv": [5, 6, 9, 13], "texture": "#0"},
-				"down": {"uv": [5, 6, 9, 13], "texture": "#0"}
+				"west": {"uv": [5, 6, 9, 13], "texture": "#0"}
 			}
 		},
 		{
@@ -700,8 +700,7 @@
 				"north": {"uv": [5, 3, 9, 10], "texture": "#0"},
 				"east": {"uv": [5, 3, 9, 10], "texture": "#0"},
 				"south": {"uv": [5, 3, 9, 10], "texture": "#0"},
-				"west": {"uv": [5, 3, 9, 10], "texture": "#0"},
-				"down": {"uv": [5, 3, 9, 10], "texture": "#0"}
+				"west": {"uv": [5, 3, 9, 10], "texture": "#0"}
 			}
 		},
 		{
@@ -713,8 +712,7 @@
 				"east": {"uv": [5, 3, 9, 10], "texture": "#8"},
 				"south": {"uv": [5, 3, 9, 10], "texture": "#8"},
 				"west": {"uv": [5, 3, 9, 10], "texture": "#8"},
-				"up": {"uv": [5, 3, 9, 10], "texture": "#8"},
-				"down": {"uv": [5, 3, 9, 10], "texture": "#8"}
+				"up": {"uv": [5, 3, 9, 10], "texture": "#8"}
 			}
 		}
 	],
@@ -759,18 +757,21 @@
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5, 6, 7]
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
 		},
 		{
 			"name": "group",
 			"origin": [-1.28, 0, -1.28],
+			"scope": 0,
 			"color": 0,
 			"children": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61]
 		}

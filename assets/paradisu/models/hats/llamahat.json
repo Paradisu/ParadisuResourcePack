@@ -1,6 +1,9 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "paradisu:custom/creamy"
+		"1": "paradisu:custom/creamy",
+		"particle": "paradisu:custom/creamy"
 	},
 	"elements": [
 		{

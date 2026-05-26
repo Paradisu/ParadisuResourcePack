@@ -1,8 +1,11 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"light_gray_concrete_powder": "block/light_gray_concrete_powder",
 		"observer_side": "block/observer_side",
 		"smooth_stone": "block/smooth_stone",
+		"particle": "block/cauldron_inner",
 		"cauldron_inner": "block/cauldron_inner",
 		"white_concrete": "block/white_concrete",
 		"black_concrete": "block/black_concrete"

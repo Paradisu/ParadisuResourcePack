@@ -1,4 +1,6 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/nether_gold_ore",
 		"particle": "block/nether_gold_ore"
@@ -37,7 +39,6 @@
 			"faces": {
 				"north": {"uv": [1, 0, 0, 1], "texture": "#0"},
 				"south": {"uv": [14, 5, 13, 11], "texture": "#0"},
-				"west": {"uv": [1, 0, 0, 1], "texture": "#0"},
 				"up": {"uv": [0, 1, 1, 0], "texture": "#0"},
 				"down": {"uv": [0, 1, 1, 0], "texture": "#0"}
 			}
@@ -87,7 +88,6 @@
 			"rotation": {"angle": -45, "axis": "y", "origin": [7.06202, 27.11648, 8.01383]},
 			"faces": {
 				"north": {"uv": [1, 0, 0, 1], "texture": "#0"},
-				"east": {"uv": [14, 7, 13, 10], "texture": "#0"},
 				"south": {"uv": [14, 5, 13, 11], "texture": "#0"},
 				"up": {"uv": [0, 1, 1, 0], "texture": "#0"},
 				"down": {"uv": [0, 1, 1, 0], "texture": "#0"}
@@ -222,8 +222,7 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [8.96111, 26.89802, 8.11448]},
 			"faces": {
 				"south": {"uv": [0, 0, 1, 1], "texture": "#0"},
-				"up": {"uv": [0, 0, 1, 1], "texture": "#0"},
-				"down": {"uv": [0, 0, 1, 1], "texture": "#0"}
+				"up": {"uv": [0, 0, 1, 1], "texture": "#0"}
 			}
 		},
 		{
@@ -247,7 +246,6 @@
 				"east": {"uv": [13, 7, 14, 10], "texture": "#0"},
 				"south": {"uv": [0, 0, 1, 1], "texture": "#0"},
 				"west": {"uv": [0, 0, 1, 1], "texture": "#0"},
-				"up": {"uv": [0, 0, 1, 1], "texture": "#0"},
 				"down": {"uv": [0, 0, 1, 1], "texture": "#0"}
 			}
 		},
@@ -260,7 +258,6 @@
 				"north": {"uv": [1, 0, 0, 1], "texture": "#0"},
 				"east": {"uv": [14, 7, 13, 10], "texture": "#0"},
 				"west": {"uv": [1, 0, 0, 1], "texture": "#0"},
-				"up": {"uv": [0, 1, 1, 0], "texture": "#0"},
 				"down": {"uv": [0, 1, 1, 0], "texture": "#0"}
 			}
 		},
@@ -808,7 +805,6 @@
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [25.67516, 16.65697, 14.1198]},
 			"faces": {
 				"east": {"uv": [0, 0, 1, 1], "texture": "#0"},
-				"south": {"uv": [0, 0, 1, 1], "texture": "#0"},
 				"west": {"uv": [0, 0, 1, 1], "texture": "#0"},
 				"up": {"uv": [0, 0, 1, 1], "texture": "#0"}
 			}
@@ -985,7 +981,6 @@
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [-12.20018, 16.65697, 14.1198]},
 			"faces": {
 				"east": {"uv": [0, 0, 1, 1], "texture": "#0"},
-				"south": {"uv": [0, 0, 1, 1], "texture": "#0"},
 				"west": {"uv": [0, 0, 1, 1], "texture": "#0"},
 				"up": {"uv": [0, 0, 1, 1], "texture": "#0"}
 			}
@@ -1028,36 +1023,56 @@
 		{
 			"name": "warppipe_full (3)",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [
 				{
 					"name": "hexadecagon",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [
 						{
 							"name": "warppipe_full (3)",
 							"origin": [8, 8, 8],
+							"scope": 0,
 							"color": 0,
 							"children": [
 								{
 									"name": "hexadecagon",
 									"origin": [8, 8, 8],
+									"scope": 0,
 									"color": 0,
 									"children": [0]
 								},
 								{
 									"name": "hexadecagon",
 									"origin": [8, 8, 8],
+									"scope": 0,
 									"color": 0,
 									"children": [1]
 								}
 							]
-						}, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+						},
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
 				},
 				{
 					"name": "hexadecagon",
 					"origin": [8, 8, 8],
+					"scope": 0,
 					"color": 0,
 					"children": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
 				}
@@ -1066,18 +1081,21 @@
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67]
 		},
 		{
 			"name": "hexadecagon",
 			"origin": [8, 8, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83]
 		}
