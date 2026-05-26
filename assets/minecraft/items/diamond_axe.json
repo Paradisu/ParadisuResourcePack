@@ -1395,6 +1395,13 @@
                     "type": "model",
                     "model": "paradisu:vehicles/flight_of_hippo_cart_front"
                 }
+            },
+            {
+                "threshold": 200,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:vehicles/lesbian_ridevehicle"
+                }
             }
             
         ],
