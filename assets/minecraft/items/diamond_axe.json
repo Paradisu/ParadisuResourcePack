@@ -427,7 +427,7 @@
                 "threshold": 61,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:toys/palutenastaff"
+                    "model": "paradisu:toys/odmgearmain"
                 }
             },
             {
