@@ -511,7 +511,7 @@
                 "threshold": 73,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:toys/eboymccompass"
+                    "model": "paradisu:toys/texcompass"
                 }
             },
             {
@@ -1204,7 +1204,7 @@
                 "threshold": 172,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:playertoys/eboy"
+                    "model": "paradisu:playertoys/tex"
                 }
             },
             {
@@ -1401,6 +1401,27 @@
                 "model": {
                     "type": "model",
                     "model": "paradisu:vehicles/lesbian_ridevehicle"
+                }
+            },
+            {
+                "threshold": 201,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wands/wandbox_herm"
+                }
+            },
+            {
+                "threshold": 202,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wands/wandbox_dumb"
+                }
+            },
+            {
+                "threshold": 203,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:wands/wandbox_harry"
                 }
             }
             

@@ -1,0 +1,9 @@
+{
+	"textures": {
+		"0": "paradisu:custom/wandbox_dumb",
+		"1": "paradisu:custom/dumbledore",
+		"2": "paradisu:custom/ollivanders",
+		"particle": "paradisu:custom/wandbox_dumb"
+	},
+	"parent": "paradisu:wands/wandbox_herm"
+}
