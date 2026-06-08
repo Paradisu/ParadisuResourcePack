@@ -1,0 +1,34 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:blindbox/blindbox"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:blindbox/blindbox"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:blindbox/blindbox"
+                }
+            }
+            
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "item/diamond"
+        }
+    }
+}
