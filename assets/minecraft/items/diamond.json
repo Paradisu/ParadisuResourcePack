@@ -14,14 +14,14 @@
                 "threshold": 2,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:blindbox/blindbox"
+                    "model": "paradisu:blindbox/minions/blindbox_minion_horse"
                 }
             },
             {
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:blindbox/blindbox"
+                    "model": "paradisu:blindbox/minions/blindbox_minion_horse"
                 }
             }
             
