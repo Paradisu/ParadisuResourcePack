@@ -1423,8 +1423,14 @@
                     "type": "model",
                     "model": "paradisu:wands/wandbox_harry"
                 }
+            },
+            {
+                "threshold": 204,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/daveskiosk"
+                }
             }
-            
         ],
         "fallback": {
             "type": "model",
