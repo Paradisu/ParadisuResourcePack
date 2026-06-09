@@ -77,7 +77,7 @@
                 "threshold": 11,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:hats/llamahat"
+                    "model": "paradisu:icons/placeholder"
                 }
             },
             {

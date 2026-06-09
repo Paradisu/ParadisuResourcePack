@@ -287,7 +287,7 @@
                 "threshold": 41,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:icons/minussign"
+                    "model": "paradisu:icons/placeholder"
                 }
             },
             {
@@ -434,7 +434,7 @@
                 "threshold": 62,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:toys/odmgearmain"
+                    "model": "paradisu:icons/placeholder"
                 }
             },
             {
@@ -511,7 +511,7 @@
                 "threshold": 73,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:toys/texcompass"
+                    "model": "paradisu:icons/placeholder"
                 }
             },
             {
@@ -770,7 +770,7 @@
                 "threshold": 110,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:terminator/terminatorleftleg"
+                    "model": "paradisu:icons/placeholder"
                 }
             },
             {
@@ -1113,14 +1113,14 @@
                 "threshold": 159,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:props/vcake"
+                    "model": "paradisu:props/springtrap_leg"
                 }
             },
             {
                 "threshold": 160,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:props/springtrap_leg"
+                    "model": "paradisu:icons/placeholder"
                 }
             },
             {
