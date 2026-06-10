@@ -287,7 +287,7 @@
                 "threshold": 41,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:icons/placeholder"
+                    "model": "paradisu:props/blindbox_shelf_minion"
                 }
             },
             {
