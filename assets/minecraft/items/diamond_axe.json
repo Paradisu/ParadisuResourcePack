@@ -511,7 +511,7 @@
                 "threshold": 73,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:icons/placeholder"
+                    "model": "paradisu:props/hogwarts_roof_2"
                 }
             },
             {
