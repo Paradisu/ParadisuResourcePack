@@ -21,7 +21,7 @@
                 "threshold": 3,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:blindbox/minions/blindbox_minion_horse"
+                    "model": "paradisu:blindbox/minions/blindbox_minion_monkey"
                 }
             }
             
