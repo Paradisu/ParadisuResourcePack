@@ -770,7 +770,7 @@
                 "threshold": 110,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:icons/placeholder"
+                    "model": "paradisu:props/planter_yellow"
                 }
             },
             {
