@@ -1120,7 +1120,7 @@
                 "threshold": 160,
                 "model": {
                     "type": "model",
-                    "model": "paradisu:icons/placeholder"
+                    "model": "paradisu:icons/info"
                 }
             },
             {

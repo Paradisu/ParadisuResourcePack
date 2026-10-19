@@ -1,0 +1,42 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "paradisu:custom/symbol2",
+		"particle": "paradisu:custom/symbol2"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8.01],
+			"faces": {
+				"north": {"uv": [16, 16, 0, 0], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [16, 16, 0, 0], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.5, -0.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4.5, -0.25]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 3.75, 2.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 3.75, 2.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"head": {
+			"translation": [0, 0, -6.75]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.5],
+			"scale": [2, 2, 2]
+		}
+	}
+}
