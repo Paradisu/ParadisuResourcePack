@@ -1430,6 +1430,13 @@
                     "type": "model",
                     "model": "paradisu:props/daveskiosk"
                 }
+            },
+            {
+                "threshold": 205,
+                "model": {
+                    "type": "model",
+                    "model": "paradisu:props/hogwarts_train"
+                }
             }
         ],
         "fallback": {
